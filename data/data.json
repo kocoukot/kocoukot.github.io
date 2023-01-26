@@ -1,0 +1,90 @@
+{
+    "background": "background",
+    "tutorial": "",
+    "showhelp_var": "task_9_12_showhelp",
+    "completed_var": "task_9_12_completed",
+    "state_var": "task_9_12_state",
+    "intro": {
+        "background": "background_intro",
+        "title": "Проверочное задание",
+        "subtitle": "Рассчитайте оборачиваемость за первое полугодие и за год по следующим условиям:",
+    },
+    "question": {
+        "background": "background_question",
+        "title": "Проверочное задание",
+        "subtitle": "Оборачиваемость за первое полугодие будет:",
+        "task": "",
+        "items": [
+            {
+                "text": "(8517+11093)/2/6822*181=227,4 дн.",
+                "correct": false
+            },
+            {
+                "text": "(8517+11093)/2/6926*181=256,2 дн.",
+                "correct": true
+            },
+            {
+                "text": "(8517+11093)/2/6581*181=198,3 дн.",
+                "correct": false
+            }
+        ]
+    },
+    "arguments": {
+        "background": "background_arguments",
+        "title": "Проверочное задание",
+        "subtitle": "Оборачиваемость за год будет:",
+        "task": "",
+        "items": [
+            {
+                "text": "(8517+7225)/2/12197*365=235,5 дн.",
+                "correct": true
+            },
+            {
+                "text": "(8517+7225)/2/13331*365=135 дн.",
+                "correct": false
+            },
+            {
+                "text": "(8517+7225)/2/12300*365=204,7 дн.",
+                "correct": false
+            }
+        ]
+    },
+    "reflection": {
+        "right": {
+            "background": "reflection_right",
+            "text_first": "Оборачиваемость ",
+            "bold_first": "за первое полугодие ",
+            "text_second": "будет ",
+            "bold_second": "(8517+11093)/2/6926*181= 256,2 дн.\n\n",
+            "text_three": "Оборачиваемость ",
+            "bold_three": "за год ",
+            "text_four": "будет ",
+            "bold_four": "(8517+7225)/2/12197*365 = 235,5 дн.",
+            "type": "right"
+        },
+        "wrong": {
+            "background": "reflection_wrong",
+            "text_first": "Оборачиваемость ",
+            "bold_first": "за первое полугодие ",
+            "text_second": "будет ",
+            "bold_second": "(8517+11093)/2/6926*181= 256,2 дн.\n\n",
+            "text_three": "Оборачиваемость ",
+            "bold_three": "за год ",
+            "text_four": "будет ",
+            "bold_four": "(8517+7225)/2/12197*365 = 235,5 дн.",
+            "type": "wrong"
+        },
+        "notquite": {
+            "background": "reflection_notquite",
+            "text_first": "Оборачиваемость ",
+            "bold_first": "за первое полугодие ",
+            "text_second": "будет ",
+            "bold_second": "(8517+11093)/2/6926*181= 256,2 дн.\n\n",
+            "text_three": "Оборачиваемость ",
+            "bold_three": "за год ",
+            "text_four": "будет ",
+            "bold_four": "(8517+7225)/2/12197*365 = 235,5 дн.",
+            "type": "notquite"
+        }
+    }
+}
