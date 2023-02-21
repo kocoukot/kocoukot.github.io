@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="oot_xls16_01_01" version="1"
+                  xmlns = "http://www.imsglobal.org/xsd/imscp_v1p1"
+                  xmlns:adlcp = "http://www.adlnet.org/xsd/adlcp_v1p3"
+                  xmlns:adlseq = "http://www.adlnet.org/xsd/adlseq_v1p3"
+                  xmlns:adlnav = "http://www.adlnet.org/xsd/adlnav_v1p3"
+                  xmlns:imsss = "http://www.imsglobal.org/xsd/imsss"
+                  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:lom="http://ltsc.ieee.org/xsd/LOM"
+                  xsi:schemaLocation = "http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                                       http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                                       http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                                       http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                                       http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd
+                                       http://ltsc.ieee.org/xsd/LOM lom.xsd" >
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 4th Edition</schemaversion>
+   </metadata>
+	<organizations default="oot_xls19_01a" >
+		<organization identifier="oot_xls19_01a" structure="hierarchical">
+			<title>Электронный курс "Microsoft Excel 2019. Уровень 1. Базовый"</title>			
+			<item identifier="ITEM-4xls_1" isvisible="true" identifierref="RES-4xls_1">
+				<title>Добро пожаловать</title>
+								</item>
+			<item identifier="ITEM-2" isvisible="true">
+				<title>ЗНАКОМСТВО С ИНТЕРФЕЙСОМ ПРОГРАММЫ</title>
+			<item identifier="ITEM-10xls1910101" isvisible="true" identifierref="RES-10xls1910101">
+				<title>Основные изменения в Excel 2019</title>
+								</item>
+			<item identifier="ITEM-13xls1910102" isvisible="true" identifierref="RES-13xls1910102">
+				<title>Настройка рабочего листа</title>
+								</item>
+			<item identifier="ITEM-16xls1910103" isvisible="true" identifierref="RES-16xls1910103">
+				<title>Перемещение по рабочему листу</title>
+								</item>
+			<item identifier="ITEM-19xls1910104" isvisible="true" identifierref="RES-19xls1910104">
+				<title>Команды и их типы поведения</title>
+								</item>
+			<item identifier="ITEM-22xls1910105" isvisible="true" identifierref="RES-22xls1910105">
+				<title>Контекстное меню</title>
+								</item>
+			<item identifier="ITEM-25xls1910106" isvisible="true" identifierref="RES-25xls1910106">
+				<title>Обзор панели быстрого доступа</title>
+								</item>
+			<item identifier="ITEM-28xls1910107" isvisible="true" identifierref="RES-28xls1910107">
+				<title>Типы диалогового окна</title>
+								</item>
+			<item identifier="ITEM-31xls1910108" isvisible="true" identifierref="RES-31xls1910108">
+				<title>Панель задач</title>
+								</item>
+			<item identifier="ITEM-34xls1910109" isvisible="true" identifierref="RES-34xls1910109">
+				<title>Составление отчета в программе</title>
+								</item>
+			<item identifier="ITEM-37xls1910110" isvisible="true" identifierref="RES-37xls1910110">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-3" isvisible="true">
+				<title>РАБОТА С ДАННЫМИ В ЯЧЕЙКАХ</title>
+			<item identifier="ITEM-43xls1910201" isvisible="true" identifierref="RES-43xls1910201">
+				<title>Типы данных в Excel и ввод формул</title>
+								</item>
+			<item identifier="ITEM-46xls1910202" isvisible="true" identifierref="RES-46xls1910202">
+				<title>Ввод числовых и текстовых данных</title>
+								</item>
+			<item identifier="ITEM-49xls1910203" isvisible="true" identifierref="RES-49xls1910203">
+				<title>Ввод даты и времени</title>
+								</item>
+			<item identifier="ITEM-52xls1910204" isvisible="true" identifierref="RES-52xls1910204">
+				<title>Удаление данных и автозаполнение</title>
+								</item>
+			<item identifier="ITEM-55xls1910205" isvisible="true" identifierref="RES-55xls1910205">
+				<title>Форматирование числовых значений</title>
+								</item>
+			<item identifier="ITEM-58xls1910206" isvisible="true" identifierref="RES-58xls1910206">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-4" isvisible="true">
+				<title>НАСТРОЙКА РАБОЧЕЙ КНИГИ</title>
+			<item identifier="ITEM-64xls1910301" isvisible="true" identifierref="RES-64xls1910301">
+				<title>Настройка рабочих листов</title>
+								</item>
+			<item identifier="ITEM-67xls1910302" isvisible="true" identifierref="RES-67xls1910302">
+				<title>Внешний вид рабочего листа</title>
+								</item>
+			<item identifier="ITEM-70xls1910303" isvisible="true" identifierref="RES-70xls1910303">
+				<title>Манипуляции со столбцами и строками</title>
+								</item>
+			<item identifier="ITEM-73xls1910304" isvisible="true" identifierref="RES-73xls1910304">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-5" isvisible="true">
+				<title>РАБОТА С ДИАПАЗОНОМ ЯЧЕЕК</title>
+			<item identifier="ITEM-79xls1910401" isvisible="true" identifierref="RES-79xls1910401">
+				<title>Выделение диапазона</title>
+								</item>
+			<item identifier="ITEM-82xls1910402" isvisible="true" identifierref="RES-82xls1910402">
+				<title>Копирование и перемещение диапазона. Специальная вставка и транспонирование</title>
+								</item>
+			<item identifier="ITEM-85xls1910403" isvisible="true" identifierref="RES-85xls1910403">
+				<title>Именованные ячейки и диапазоны</title>
+								</item>
+			<item identifier="ITEM-88xls1910404" isvisible="true" identifierref="RES-88xls1910404">
+				<title>Примечание к ячейкам</title>
+								</item>
+			<item identifier="ITEM-91xls1910405" isvisible="true" identifierref="RES-91xls1910405">
+				<title>Структура таблицы. Сортировка и фильтрация</title>
+								</item>
+			<item identifier="ITEM-94xls1910406" isvisible="true" identifierref="RES-94xls1910406">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-6" isvisible="true">
+				<title>ФОРМАТИРОВАНИЕ В EXCEL</title>
+			<item identifier="ITEM-100xls1910501" isvisible="true" identifierref="RES-100xls1910501">
+				<title>Формат ячеек</title>
+								</item>
+			<item identifier="ITEM-103xls1910502" isvisible="true" identifierref="RES-103xls1910502">
+				<title>Настройки шрифта. Визуальное выделение</title>
+								</item>
+			<item identifier="ITEM-106xls1910503" isvisible="true" identifierref="RES-106xls1910503">
+				<title>Условное форматирование</title>
+								</item>
+			<item identifier="ITEM-109xls1910504" isvisible="true" identifierref="RES-109xls1910504">
+				<title>Именованные стили</title>
+								</item>
+			<item identifier="ITEM-112xls1910505" isvisible="true" identifierref="RES-112xls1910505">
+				<title>Тема документов</title>
+								</item>
+			<item identifier="ITEM-115xls1910506" isvisible="true" identifierref="RES-115xls1910506">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-7" isvisible="true">
+				<title>ОПЕРАЦИИ НАД ФАЙЛАМИ</title>
+			<item identifier="ITEM-121xls1910601" isvisible="true" identifierref="RES-121xls1910601">
+				<title>Предустановка пустой рабочей книги</title>
+								</item>
+			<item identifier="ITEM-124xls1910602" isvisible="true" identifierref="RES-124xls1910602">
+				<title>Открытие созданной рабочей книги</title>
+								</item>
+			<item identifier="ITEM-127xls1910603" isvisible="true" identifierref="RES-127xls1910603">
+				<title>Способы сохранения файла</title>
+								</item>
+			<item identifier="ITEM-130xls1910604" isvisible="true" identifierref="RES-130xls1910604">
+				<title>Автовосстановление</title>
+								</item>
+			<item identifier="ITEM-133xls1910605" isvisible="true" identifierref="RES-133xls1910605">
+				<title>Защита рабочей книги паролем</title>
+								</item>
+			<item identifier="ITEM-136xls1910606" isvisible="true" identifierref="RES-136xls1910606">
+				<title>Функции на вкладке "Сведения"</title>
+								</item>
+			<item identifier="ITEM-139xls1910607" isvisible="true" identifierref="RES-139xls1910607">
+				<title>Способы закрытия файла</title>
+								</item>
+			<item identifier="ITEM-142xls1910608" isvisible="true" identifierref="RES-142xls1910608">
+				<title>Встроенные и созданные шаблоны</title>
+								</item>
+			<item identifier="ITEM-145xls1910609" isvisible="true" identifierref="RES-145xls1910609">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-8" isvisible="true">
+				<title>ПЕЧАТЬ ФАЙЛА</title>
+			<item identifier="ITEM-151xls1910701" isvisible="true" identifierref="RES-151xls1910701">
+				<title>Способы печати рабочего листа</title>
+								</item>
+			<item identifier="ITEM-154xls1910702" isvisible="true" identifierref="RES-154xls1910702">
+				<title>Режимы просмотра страницы для печати</title>
+								</item>
+			<item identifier="ITEM-157xls1910703" isvisible="true" identifierref="RES-157xls1910703">
+				<title>Изменение параметров печати</title>
+								</item>
+			<item identifier="ITEM-160xls1910704" isvisible="true" identifierref="RES-160xls1910704">
+				<title>Колонтитулы</title>
+								</item>
+			<item identifier="ITEM-163xls1910705" isvisible="true" identifierref="RES-163xls1910705">
+				<title>Особые настройки печати</title>
+								</item>
+			<item identifier="ITEM-166xls1910706" isvisible="true" identifierref="RES-166xls1910706">
+				<title>Практика</title>
+								</item>
+			</item>
+			<item identifier="ITEM-9" isvisible="true">
+				<title>ПОЛЬЗОВАТЕЛЬСКИЙ ИНТЕРФЕЙС</title>
+			<item identifier="ITEM-172xls1910801" isvisible="true" identifierref="RES-172xls1910801">
+				<title>Настройка панели быстрого доступа</title>
+								</item>
+			<item identifier="ITEM-175xls1910802" isvisible="true" identifierref="RES-175xls1910802">
+				<title>Настройка ленты в Excel</title>
+								</item>
+			<item identifier="ITEM-178xls1910803" isvisible="true" identifierref="RES-178xls1910803">
+				<title>"Горячие клавиши"</title>
+								</item>
+			<item identifier="ITEM-181xls1910804" isvisible="true" identifierref="RES-181xls1910804">
+				<title>Практика</title>
+								</item>
+			</item>			
+			<item identifier="ITEM-187xls_1_final" isvisible="true" identifierref="RES-187xls_1_final">
+				<title>Заключение</title>
+								
+			</item>
+		<imsss:sequencing ><imsss:controlMode choice = "true" flow = "true" /></imsss:sequencing >
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="RES-4xls_1" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls_1/index_lms.html" >
+			<file href="common/anyElement.xsd" />
+			<file href="common/dataTypes.xsd" />
+			<file href="common/elementNames.xsd" />
+			<file href="common/elementTypes.xsd" />
+			<file href="common/rootElement.xsd" />
+			<file href="common/vocabTypes.xsd" />
+			<file href="common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910101/xls1910101.mp4" />
+			<file href="Content/player/Course/xls1910102/xls1910102.mp4" />
+			<file href="Content/player/Course/xls1910103/xls1910103.mp4" />
+			<file href="Content/player/Course/xls1910104/xls1910104.mp4" />
+			<file href="Content/player/Course/xls1910105/xls1910105.mp4" />
+			<file href="Content/player/Course/xls1910106/xls1910106.mp4" />
+			<file href="Content/player/Course/xls1910107/xls1910107.mp4" />
+			<file href="Content/player/Course/xls1910108/xls1910108.mp4" />
+			<file href="Content/player/Course/xls1910109/xls1910109.mp4" />
+			<file href="Content/player/Course/xls1910110/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910110/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910110/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910110/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910110/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910110/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910110/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910110/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910110/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910110/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5bEc1IIOMjz.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5cgSwwFvDI5.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5ctRQm5Irz0.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5fMCmJPvQkF.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5gR7YhYEj1v.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5kblsSqbwfq.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5mBMOg9KpYV.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5mqTbe5xKsR.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5nd4GNqhrgW.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5p0iHvoe0Ed.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5pLxbiWKamF.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5s8Cc2uABT3.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5ubGH2gE0NO.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5vLX0KnjAGX.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5VsS6nX1r8Z.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5wX0xCZ69j0.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5xATGqP3hfA.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/5zuOZ4Nn7k1.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/63FdfacIAHk.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/63MUCq0cBpR.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6423Qsub9zl.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/661HJoo9kD4.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/685U6TjPLxO.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/694uZH0vT1F.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6Bpn9LV33Q3.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6CZe7IHV0xK.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6EH8CSqmijz.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6F3BqsZXWnJ.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6FZ60juk6kO.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6GiE5gU4bGZ.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6hqYynuv80M.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6jrhZx3pGp9.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6mVztkzDYbB.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6myTCfrh59O.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6o8coNzPX7S.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6oq6lIr3hr0.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6R4E41tYy2d.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/6VEt10Vh3FI.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910110/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910110/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910110/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910110/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910110/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910110/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910110/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910110/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910110/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910110/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910110/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910110/lms/blank.html" />
+			<file href="Content/player/Course/xls1910110/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910110/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910110/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910110/mobile/5a377BvFTQw.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5a5dkFYxZlG.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5aOT2qeo2Zo.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5aoWvzgbMcD.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5dNSDuVI97K.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5haSfCfFV2x.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5jUmIYo58sD.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5jXVblimZ8w.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5mzVaSEyvU3.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5oSjJatHbWi.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5pxrSkTv8Fd.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5sWKMMWUqDK.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5UkHwI7h3l3.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5V2GxZBPSyT_X.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5V7SfiTw3hA.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5W1CTqgmFzH.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5wlrwd2NOL0.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5wtdLxAjcWl.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5ykgffWVsd1.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5yw9Uqgt9Qx.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5ZG3jho4NCJ.png" />
+			<file href="Content/player/Course/xls1910110/mobile/5Zra3lJU7pm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/60lDthRgUNw.png" />
+			<file href="Content/player/Course/xls1910110/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910110/mobile/64YFRe7Yv4f.png" />
+			<file href="Content/player/Course/xls1910110/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910110/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910110/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910110/mobile/67lbsNCz2ol.png" />
+			<file href="Content/player/Course/xls1910110/mobile/690ZCRC5Ioc.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6BIA4oCQTHv.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6BiBVpo6bv0.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6BrCtqeuzD3.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6d07l6fjZyc.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6DxGddajKZs.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6e23faMU3YB.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6eTmam7eBJm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6FiufMXhIZm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6fQD2f625ha.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6gMaDscvkjj.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6JAWiXPWyyV_X.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6KScLC1Fvmw.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6ksPIuU3iRm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6L3yL6OKFPW.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6lewtDNtVF7.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6lsXmNFUDyP.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6nsM4yXVAN5.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6oKQvp7vIiZ.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6PmJQaT8XBu.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6Qn02gYI8jo.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6qSgtcuAYdA.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6RMFntjVSGp_X.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6ShB6efOARG.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6Tbvshqaspm.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6VFeQmmKoib.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6VLSxoWrxZp.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6VoGK8kZXIX.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910110/mobile/6XQ59mWzrry.png" />
+			<file href="Content/player/Course/xls1910110/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910110/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910110/story_content/user.js" />
+			<file href="Content/player/Course/xls1910110/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910110/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910110/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910110/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910110/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910110/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910110/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910110/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910110/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910110/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910110/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910110/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910110/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910110/index_lms.html" />
+			<file href="Content/player/Course/xls1910110/lom.xsd" />
+			<file href="Content/player/Course/xls1910110/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910110/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910110/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910110/meta.xml" />
+			<file href="Content/player/Course/xls1910110/metadata.xml" />
+			<file href="Content/player/Course/xls1910110/story.html" />
+			<file href="Content/player/Course/xls1910110/xml.xsd" />
+			<file href="Content/player/Course/xls1910110/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910201/xls1910201.mp4" />
+			<file href="Content/player/Course/xls1910202/xls1910202.mp4" />
+			<file href="Content/player/Course/xls1910203/xls1910203.mp4" />
+			<file href="Content/player/Course/xls1910204/xls1910204.mp4" />
+			<file href="Content/player/Course/xls1910205/xls1910205.mp4" />
+			<file href="Content/player/Course/xls1910206/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910206/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910206/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910206/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910206/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910206/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910206/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910206/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910206/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910206/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5dIAfhpvXFY.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5kc6hDeteqQ.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6CEk9GsuBnJ.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6IAiAV62Yaf.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6JDhg3fix12.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910206/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910206/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910206/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910206/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910206/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910206/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910206/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910206/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910206/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910206/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910206/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910206/lms/blank.html" />
+			<file href="Content/player/Course/xls1910206/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910206/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910206/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910206/mobile/5eX8bMu9Qmn.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5h22MVsOSNH.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5hL5OkfBqaY.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5nmDRbY0Qwe.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5q09qLoEmur.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5ucKVjlJxH6.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5V2GxZBPSyT_X.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910206/mobile/5YXcd0ZrLN8.png" />
+			<file href="Content/player/Course/xls1910206/mobile/611rvfHjUxQ.png" />
+			<file href="Content/player/Course/xls1910206/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910206/mobile/63363Em8yRx.png" />
+			<file href="Content/player/Course/xls1910206/mobile/652a11BRHyV.png" />
+			<file href="Content/player/Course/xls1910206/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910206/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910206/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6bQTxyA6OCR.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6cwowS6CyLu.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6DbEFYfQvHu.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6E5nrtUarLG.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6H1XdNAYBgP.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6hJOIHDCbQJ.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6hXC8WDKCRb.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6IqdV7GmAUF.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6JAWiXPWyyV_X.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6nSTGovYJG1.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6pcCtA0sNsC.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6RMFntjVSGp_X.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6XZiF52KKYH.png" />
+			<file href="Content/player/Course/xls1910206/mobile/6YpbdHnJPx6.png" />
+			<file href="Content/player/Course/xls1910206/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910206/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910206/story_content/user.js" />
+			<file href="Content/player/Course/xls1910206/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910206/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910206/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910206/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910206/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910206/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910206/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910206/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910206/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910206/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910206/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910206/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910206/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910206/index_lms.html" />
+			<file href="Content/player/Course/xls1910206/lom.xsd" />
+			<file href="Content/player/Course/xls1910206/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910206/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910206/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910206/meta.xml" />
+			<file href="Content/player/Course/xls1910206/metadata.xml" />
+			<file href="Content/player/Course/xls1910206/story.html" />
+			<file href="Content/player/Course/xls1910206/xml.xsd" />
+			<file href="Content/player/Course/xls1910206/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910301/xls1910301.mp4" />
+			<file href="Content/player/Course/xls1910302/xls1910302.mp4" />
+			<file href="Content/player/Course/xls1910303/xls1910303.mp4" />
+			<file href="Content/player/Course/xls1910304/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910304/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910304/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910304/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910304/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910304/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910304/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910304/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910304/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910304/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5tpdUneLngu.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/63Prvv5EpBL.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910304/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910304/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910304/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910304/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910304/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910304/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910304/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910304/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910304/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910304/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910304/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910304/lms/blank.html" />
+			<file href="Content/player/Course/xls1910304/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910304/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910304/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910304/mobile/5bFKa5WRNe9.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5f4EX9DnJvx.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5mFlJCqXURF.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5w9KFKFrIxD.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5xkGGo0QWWx.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5yV9r0B5FMD.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5z5BLghdy9S.png" />
+			<file href="Content/player/Course/xls1910304/mobile/5ZN21Y6gTGK.png" />
+			<file href="Content/player/Course/xls1910304/mobile/61caKS6mEPI.png" />
+			<file href="Content/player/Course/xls1910304/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910304/mobile/63Y9pXst89v.png" />
+			<file href="Content/player/Course/xls1910304/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910304/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910304/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6aOUdh0edRu.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6gQ5EizBxrJ.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6iO1ImMA4tI.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6o0Ar0abhiB.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6Pvjz8XnVkP.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6PwpRPPbJUv.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910304/mobile/6Xpbuco1xZk.png" />
+			<file href="Content/player/Course/xls1910304/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910304/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910304/story_content/user.js" />
+			<file href="Content/player/Course/xls1910304/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910304/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910304/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910304/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910304/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910304/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910304/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910304/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910304/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910304/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910304/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910304/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910304/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910304/index_lms.html" />
+			<file href="Content/player/Course/xls1910304/lom.xsd" />
+			<file href="Content/player/Course/xls1910304/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910304/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910304/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910304/meta.xml" />
+			<file href="Content/player/Course/xls1910304/metadata.xml" />
+			<file href="Content/player/Course/xls1910304/story.html" />
+			<file href="Content/player/Course/xls1910304/xml.xsd" />
+			<file href="Content/player/Course/xls1910304/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910401/xls1910401.mp4" />
+			<file href="Content/player/Course/xls1910402/xls1910402.mp4" />
+			<file href="Content/player/Course/xls1910403/xls1910403.mp4" />
+			<file href="Content/player/Course/xls1910404/xls1910404.mp4" />
+			<file href="Content/player/Course/xls1910405/xls1910405.mp4" />
+			<file href="Content/player/Course/xls1910406/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910406/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910406/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910406/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910406/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910406/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910406/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910406/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910406/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910406/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5fMCmJPvQkF.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5nrYldJLieA.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5p0iHvoe0Ed.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/62DI8c8Rqkq.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/63Prvv5EpBL.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6myTCfrh59O.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6o8coNzPX7S.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6oq6lIr3hr0.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/6VEt10Vh3FI.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910406/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910406/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910406/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910406/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910406/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910406/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910406/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910406/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910406/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910406/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910406/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910406/lms/blank.html" />
+			<file href="Content/player/Course/xls1910406/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910406/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910406/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910406/mobile/5b0GAhgWVeC.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5h7w4ZlCibP.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5qcrpfJKHJE.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5V2GxZBPSyT_X.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5y6obZHZp7e.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5yEjIZKn8Oo.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5Ys1dltJRd7.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5z31PD8H8iQ.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5zkUWbS0fp4.png" />
+			<file href="Content/player/Course/xls1910406/mobile/5ZuIS1RYUCY.png" />
+			<file href="Content/player/Course/xls1910406/mobile/60XBAipW2Or.png" />
+			<file href="Content/player/Course/xls1910406/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910406/mobile/61LUCdgb5pH.png" />
+			<file href="Content/player/Course/xls1910406/mobile/63mskSq30Hb.png" />
+			<file href="Content/player/Course/xls1910406/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910406/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910406/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910406/mobile/69EonFt3P4o.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6bb8yWZEuYM.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6CYzs7LXMpI.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6dh9TMMLRHQ.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6FctRvTTdT5.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6fuBszzxyOE.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6gdj6Qp9lPG.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6Gs01vOEx7W.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6HKKaXExUSV.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6JAWiXPWyyV_X.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6kzLAzTF55f.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6MIkfjaoogd.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6mYTl6redrU.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6NGQIPW8klQ.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6nsGycZUxhp.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6RMFntjVSGp_X.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6rQ5r562wfo.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6RvbF95gUBl.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6ShoLEpabdb.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6Ty94TZgRlx.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6Xy4lP2ZqlT.png" />
+			<file href="Content/player/Course/xls1910406/mobile/6Z6f0NsEImb.png" />
+			<file href="Content/player/Course/xls1910406/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910406/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910406/story_content/user.js" />
+			<file href="Content/player/Course/xls1910406/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910406/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910406/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910406/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910406/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910406/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910406/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910406/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910406/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910406/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910406/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910406/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910406/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910406/index_lms.html" />
+			<file href="Content/player/Course/xls1910406/lom.xsd" />
+			<file href="Content/player/Course/xls1910406/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910406/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910406/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910406/meta.xml" />
+			<file href="Content/player/Course/xls1910406/metadata.xml" />
+			<file href="Content/player/Course/xls1910406/story.html" />
+			<file href="Content/player/Course/xls1910406/xml.xsd" />
+			<file href="Content/player/Course/xls1910406/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910501/xls1910501.mp4" />
+			<file href="Content/player/Course/xls1910502/xls1910502.mp4" />
+			<file href="Content/player/Course/xls1910503/xls1910503.mp4" />
+			<file href="Content/player/Course/xls1910504/xls1910504.mp4" />
+			<file href="Content/player/Course/xls1910505/xls1910505.mp4" />
+			<file href="Content/player/Course/xls1910506/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910506/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910506/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910506/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910506/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910506/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910506/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910506/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910506/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910506/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5p0iHvoe0Ed.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/62KptKAFXq8.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/63FdfacIAHk.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/63Prvv5EpBL.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6F3BqsZXWnJ.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6jrhZx3pGp9.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6mVztkzDYbB.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6myTCfrh59O.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6o8coNzPX7S.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6oq6lIr3hr0.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6OUIBJsyYZF.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/6VEt10Vh3FI.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910506/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910506/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910506/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910506/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910506/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910506/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910506/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910506/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910506/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910506/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910506/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910506/lms/blank.html" />
+			<file href="Content/player/Course/xls1910506/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910506/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910506/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910506/mobile/5a1WrgtsIEF.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5d5ghb8RGwy.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5ebJIQRcTM8.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5ekmh0cwKoS.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5f5bv9EIHjF.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5fcsFyHoLwE.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5fRz5R0gpwD.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5iScnat8nHl.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5mLBT2jU1FN.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5t6TjvaJyCb.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5V2GxZBPSyT_X.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5vPuCMBhlEP.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5VyDVw80LVn.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5woyGeAMTd8.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910506/mobile/5yqnCR4Yrx8.png" />
+			<file href="Content/player/Course/xls1910506/mobile/611rvfHjUxQ.png" />
+			<file href="Content/player/Course/xls1910506/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910506/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910506/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910506/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910506/mobile/69AZZc0woNG.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6a4IKMJ3y93.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6ANjvKYl3cV.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6Cxzj7KVMnG.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6DbEFYfQvHu.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6dSNKWgVFI5.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6EdSs7nSJOD.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6ELIOkbNRLa.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6et70lP8Klj.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6hfzARqLMcC.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6HLuyDftsC9.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6iILOhJyFWF.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6JAWiXPWyyV_X.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6Kfivo9kjzk.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6mlX0V7E2qN.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6nSTGovYJG1.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6nWnuSmxYcd.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6PPj8NReuEE.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6pZWGXJBe9m.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6QtMur3uMAx.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6RMFntjVSGp_X.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6W9X3fTsMZp.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6XrJqD80GWJ.png" />
+			<file href="Content/player/Course/xls1910506/mobile/6YpbdHnJPx6.png" />
+			<file href="Content/player/Course/xls1910506/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910506/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910506/story_content/user.js" />
+			<file href="Content/player/Course/xls1910506/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910506/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910506/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910506/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910506/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910506/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910506/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910506/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910506/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910506/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910506/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910506/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910506/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910506/index_lms.html" />
+			<file href="Content/player/Course/xls1910506/lom.xsd" />
+			<file href="Content/player/Course/xls1910506/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910506/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910506/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910506/meta.xml" />
+			<file href="Content/player/Course/xls1910506/metadata.xml" />
+			<file href="Content/player/Course/xls1910506/story.html" />
+			<file href="Content/player/Course/xls1910506/xml.xsd" />
+			<file href="Content/player/Course/xls1910506/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910601/xls1910601.mp4" />
+			<file href="Content/player/Course/xls1910602/xls1910602.mp4" />
+			<file href="Content/player/Course/xls1910603/xls1910603.mp4" />
+			<file href="Content/player/Course/xls1910604/xls1910604.mp4" />
+			<file href="Content/player/Course/xls1910605/xls1910605.mp4" />
+			<file href="Content/player/Course/xls1910606/xls1910606.mp4" />
+			<file href="Content/player/Course/xls1910607/xls1910607.mp4" />
+			<file href="Content/player/Course/xls1910608/xls1910608.mp4" />
+			<file href="Content/player/Course/xls1910609/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910609/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910609/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910609/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910609/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910609/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910609/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910609/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910609/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910609/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5a2mwkRcwX1.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5bEc1IIOMjz.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5cgSwwFvDI5.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5fMCmJPvQkF.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5gR7YhYEj1v.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5lU3pTvBaAc.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5mqTbe5xKsR.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5nd4GNqhrgW.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5nKkfAjQu99.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5p0iHvoe0Ed.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5pLxbiWKamF.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5ubGH2gE0NO.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5uJUYmfzRea.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5wWtENe2MAz.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5wX0xCZ69j0.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5Xkz273lIiP.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/63FdfacIAHk.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/63Prvv5EpBL.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/661HJoo9kD4.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/685U6TjPLxO.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6Bpn9LV33Q3.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6EH8CSqmijz.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6F3BqsZXWnJ.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6hqYynuv80M.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6jrhZx3pGp9.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6o8coNzPX7S.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6oq6lIr3hr0.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/6VEt10Vh3FI.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910609/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910609/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910609/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910609/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910609/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910609/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910609/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910609/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910609/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910609/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910609/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910609/lms/blank.html" />
+			<file href="Content/player/Course/xls1910609/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910609/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910609/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910609/mobile/5aSzxDb65eq.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5aZMNPbaFwv.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5bGk4ZLGuX8.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5c1ALwPJLzC.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5dAMGxh7lNL.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5e1SwnwSroW.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5gx3MYdnPVw.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5hEqbII9PC8.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5kVobYKvsmt.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5kvRuU7anan.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5prLm1aEQmj.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5rTJ8f2Ia6n.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5seESwAyg3t.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5wxoKBgnKM6.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5x663VOqH6I.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5XcGJn8JsXr.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5XKRwKeVVkJ.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5YSCAV68FDq.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5YVcwCjJczo.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5zJHdU3rk5Z.png" />
+			<file href="Content/player/Course/xls1910609/mobile/5ZzXLb00liL.png" />
+			<file href="Content/player/Course/xls1910609/mobile/611rvfHjUxQ.png" />
+			<file href="Content/player/Course/xls1910609/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910609/mobile/61s8AqYxDQU.png" />
+			<file href="Content/player/Course/xls1910609/mobile/62cms7XGn9t.png" />
+			<file href="Content/player/Course/xls1910609/mobile/653dOJ07Fao.png" />
+			<file href="Content/player/Course/xls1910609/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910609/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910609/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6aNpCSkPEpx.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6atGQAk9Sq1.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6bdAVkJ03U1.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6c1LJnD106F.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6DbEFYfQvHu.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6dsC9XWkbY9.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6fD53hI7YgY.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6fOBNfUBTJl.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6FQdl8OqZbS.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6FZTjsPhGWj.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6h0MriNBa9t.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6hlOEWhbPsQ.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6Ht1cWZTX6f.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6jBUGGJHlKi.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6Le83sITGsb.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6LoiYBq4O8x.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6m09hIukozD.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6N7iOs7Ek0s.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6nBMgghpRLI.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6nd16AnkSrU.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6nQf9EGzDhn.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6nSTGovYJG1.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6OjRS3jBShF.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6ouuRbOWcRa.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6R8Nr3rQykd.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6SnvXUnA74g.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6Y9Xr6Ns4mV.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6YpbdHnJPx6.png" />
+			<file href="Content/player/Course/xls1910609/mobile/6ZcwuR3zhxR.png" />
+			<file href="Content/player/Course/xls1910609/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910609/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910609/story_content/user.js" />
+			<file href="Content/player/Course/xls1910609/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910609/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910609/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910609/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910609/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910609/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910609/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910609/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910609/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910609/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910609/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910609/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910609/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910609/index_lms.html" />
+			<file href="Content/player/Course/xls1910609/lom.xsd" />
+			<file href="Content/player/Course/xls1910609/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910609/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910609/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910609/meta.xml" />
+			<file href="Content/player/Course/xls1910609/metadata.xml" />
+			<file href="Content/player/Course/xls1910609/story.html" />
+			<file href="Content/player/Course/xls1910609/xml.xsd" />
+			<file href="Content/player/Course/xls1910609/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910701/xls1910701.mp4" />
+			<file href="Content/player/Course/xls1910702/xls1910702.mp4" />
+			<file href="Content/player/Course/xls1910703/xls1910703.mp4" />
+			<file href="Content/player/Course/xls1910704/xls1910704.mp4" />
+			<file href="Content/player/Course/xls1910705/xls1910705.mp4" />
+			<file href="Content/player/Course/xls1910706/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910706/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910706/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910706/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910706/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910706/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910706/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910706/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910706/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910706/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5lmrtfwqzTs.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5nrUuUO19To.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5pX0mg9Awbz.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5sVLuOwCX5d.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5Wf9R8Slnah.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5XVkIP4UzHS.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6bdoy126ida.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6czQKmVvEfo.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6NmRsBXkuLs.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6PnipL5Wch4.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6qnKBp2zRMR.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6Td0DGpwiNu.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910706/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910706/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910706/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910706/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910706/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910706/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910706/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910706/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910706/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910706/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910706/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910706/lms/blank.html" />
+			<file href="Content/player/Course/xls1910706/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910706/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910706/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910706/mobile/5b7MD3dmJ8z.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5d48pbhYNWp.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5hEnWyPwFgc.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5joAhEs8l8V.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5kyE1RY6COU.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5sd0xb2FzLu.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5V2GxZBPSyT_X.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5Zjdt8qI8VL.png" />
+			<file href="Content/player/Course/xls1910706/mobile/5ZjxnHFWRla.png" />
+			<file href="Content/player/Course/xls1910706/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910706/mobile/64O4GaJkphQ.png" />
+			<file href="Content/player/Course/xls1910706/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910706/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910706/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910706/mobile/66F0m3dZATM.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6Ciahn1a07o.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6EvbC3dq29m.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6Fg4Kkqvoub.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6gVwynGo1cy.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6Hb0FblkihG.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6hlmhiMFsnX.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6JAWiXPWyyV_X.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6LoB2TpVkVP.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6mEWGWwMMWP.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6okNmV84O6P.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6OTwuLy9mS2.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6pSiVWv11db.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6r23ig8EKiF.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6R4ymNZcEsC.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6RMFntjVSGp_X.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6SbHWRE4If4.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6VgcwRrEjT7.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6VOB5HDV4v6.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910706/mobile/6XhIMiDWJ94.png" />
+			<file href="Content/player/Course/xls1910706/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910706/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910706/story_content/user.js" />
+			<file href="Content/player/Course/xls1910706/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910706/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910706/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910706/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910706/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910706/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910706/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910706/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910706/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910706/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910706/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910706/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910706/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910706/index_lms.html" />
+			<file href="Content/player/Course/xls1910706/lom.xsd" />
+			<file href="Content/player/Course/xls1910706/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910706/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910706/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910706/meta.xml" />
+			<file href="Content/player/Course/xls1910706/metadata.xml" />
+			<file href="Content/player/Course/xls1910706/story.html" />
+			<file href="Content/player/Course/xls1910706/xml.xsd" />
+			<file href="Content/player/Course/xls1910706/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls1910801/xls1910801.mp4" />
+			<file href="Content/player/Course/xls1910802/xls1910802.mp4" />
+			<file href="Content/player/Course/xls1910803/xls1910803.mp4" />
+			<file href="Content/player/Course/xls1910804/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls1910804/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls1910804/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls1910804/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls1910804/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls1910804/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls1910804/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls1910804/extend/custom.xsd" />
+			<file href="Content/player/Course/xls1910804/extend/strict.xsd" />
+			<file href="Content/player/Course/xls1910804/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5bWp0WRIeXE.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5hcTiDUwhw5.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5pQNx8YbXcJ.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5t1qhWzidKz.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5VEGzNvQOU1.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5vFK2eWLTF2.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5XQzzf87wxH.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/5YLWcfWeFhF.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/635I9gHltaw.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/63Prvv5EpBL.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/69k7A2fak7r.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/69Nh8iF8ozI.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6CS2Cmtxd3Z.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6lAAhvPY5Hi.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6Mk9zU7zRkS.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6NGEFO0mo5c.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6qlXu3lRH1Y.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6roAW9CUuPX.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6SkORzDxBYV.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6TinQefozsD.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/6V2xTSYYIO4.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls1910804/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls1910804/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls1910804/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls1910804/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls1910804/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls1910804/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls1910804/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls1910804/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls1910804/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls1910804/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls1910804/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls1910804/lms/blank.html" />
+			<file href="Content/player/Course/xls1910804/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls1910804/lms/goodbye.html" />
+			<file href="Content/player/Course/xls1910804/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls1910804/mobile/5aMXkl5zXl0.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5aNZH8a4f9f.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5h3ovEmDolD.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5i0G8s1rkEY.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5nCpes6rnXp.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5oY2LNzYeza.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5u9fbJhzCeD.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5V2GxZBPSyT.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5xeJ9mh5YHv.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5xGl86xmpcA.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5XnTELcwfwu.png" />
+			<file href="Content/player/Course/xls1910804/mobile/5ywtxNxDk0L.png" />
+			<file href="Content/player/Course/xls1910804/mobile/61dyvZQg8vo.png" />
+			<file href="Content/player/Course/xls1910804/mobile/65FASZm2Vwc.png" />
+			<file href="Content/player/Course/xls1910804/mobile/65gDTTYEH4c.png" />
+			<file href="Content/player/Course/xls1910804/mobile/65opzxPXyRC.png" />
+			<file href="Content/player/Course/xls1910804/mobile/66bgIlI7Rbx.png" />
+			<file href="Content/player/Course/xls1910804/mobile/68L3D3WBznc.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6a43vc54s4E.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6AMg5JxDBTD.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6Bi6OexQ3X2.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6cHP1hScZtO.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6Dgsf2QghQm.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6efs1Nhx6dh.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6eWy9qeX9q1.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6H1I2Hyyceu.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6ieIadQ0xCx.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6JAWiXPWyyV.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6NiAjd3ZvHK.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6NiAjd3ZvHK_Y.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6OGnAG0GofR.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6P3lDNiirrS.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6Pb7qATgKml.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6pRSBFRss0Z.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6q1jXBJo5eM.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6RMFntjVSGp.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6TvURaeKdC6.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6VfGjlC8YNA.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6WDSa5DqZRZ.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6WJY6f1mXb7.png" />
+			<file href="Content/player/Course/xls1910804/mobile/6WoqGbu61Yd.png" />
+			<file href="Content/player/Course/xls1910804/story_content/frame.xml" />
+			<file href="Content/player/Course/xls1910804/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls1910804/story_content/user.js" />
+			<file href="Content/player/Course/xls1910804/unique/loose.xsd" />
+			<file href="Content/player/Course/xls1910804/unique/strict.xsd" />
+			<file href="Content/player/Course/xls1910804/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls1910804/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls1910804/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls1910804/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910804/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910804/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls1910804/analytics-frame.html" />
+			<file href="Content/player/Course/xls1910804/datatypes.dtd" />
+			<file href="Content/player/Course/xls1910804/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls1910804/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls1910804/ims_xml.xsd" />
+			<file href="Content/player/Course/xls1910804/index_lms.html" />
+			<file href="Content/player/Course/xls1910804/lom.xsd" />
+			<file href="Content/player/Course/xls1910804/lomCustom.xsd" />
+			<file href="Content/player/Course/xls1910804/lomLoose.xsd" />
+			<file href="Content/player/Course/xls1910804/lomStrict.xsd" />
+			<file href="Content/player/Course/xls1910804/meta.xml" />
+			<file href="Content/player/Course/xls1910804/metadata.xml" />
+			<file href="Content/player/Course/xls1910804/story.html" />
+			<file href="Content/player/Course/xls1910804/xml.xsd" />
+			<file href="Content/player/Course/xls1910804/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls_1/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls_1/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls_1/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls_1/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls_1/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls_1/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls_1/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls_1/extend/custom.xsd" />
+			<file href="Content/player/Course/xls_1/extend/strict.xsd" />
+			<file href="Content/player/Course/xls_1/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls_1/html5/data/js/5kkCjOkoYMr.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/5wTZRsPE7Pd.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/5ZVV8JzzHJQ.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/64flPkmYLc0.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/6H7WIMx7GWl.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/6ZeELHD8mSg.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls_1/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls_1/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls_1/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls_1/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls_1/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls_1/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls_1/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls_1/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls_1/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls_1/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls_1/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls_1/lms/blank.html" />
+			<file href="Content/player/Course/xls_1/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls_1/lms/goodbye.html" />
+			<file href="Content/player/Course/xls_1/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls_1/mobile/5aIXl8cR7LP.png" />
+			<file href="Content/player/Course/xls_1/mobile/5cNxxCnun68.png" />
+			<file href="Content/player/Course/xls_1/mobile/5hzLxGS083h.png" />
+			<file href="Content/player/Course/xls_1/mobile/5wsSDXLgMN0.png" />
+			<file href="Content/player/Course/xls_1/mobile/64x8gnoUH4s.png" />
+			<file href="Content/player/Course/xls_1/mobile/67A9t8PnQLr.png" />
+			<file href="Content/player/Course/xls_1/mobile/68JMx3tJ65J.png" />
+			<file href="Content/player/Course/xls_1/mobile/6ay1bH2k4lK.png" />
+			<file href="Content/player/Course/xls_1/mobile/6IG0cTfilGG.png" />
+			<file href="Content/player/Course/xls_1/mobile/6KdTEyzb3KS.png" />
+			<file href="Content/player/Course/xls_1/mobile/6KknmVlzpyH.png" />
+			<file href="Content/player/Course/xls_1/mobile/6M3FYyUu9ra.png" />
+			<file href="Content/player/Course/xls_1/mobile/6W4pXzE9e2e.png" />
+			<file href="Content/player/Course/xls_1/story_content/frame.xml" />
+			<file href="Content/player/Course/xls_1/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls_1/story_content/user.js" />
+			<file href="Content/player/Course/xls_1/unique/loose.xsd" />
+			<file href="Content/player/Course/xls_1/unique/strict.xsd" />
+			<file href="Content/player/Course/xls_1/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls_1/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls_1/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls_1/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1/analytics-frame.html" />
+			<file href="Content/player/Course/xls_1/datatypes.dtd" />
+			<file href="Content/player/Course/xls_1/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls_1/imsmanifest.xml" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls_1/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls_1/ims_xml.xsd" />
+			<file href="Content/player/Course/xls_1/index_lms.html" />
+			<file href="Content/player/Course/xls_1/lom.xsd" />
+			<file href="Content/player/Course/xls_1/lomCustom.xsd" />
+			<file href="Content/player/Course/xls_1/lomLoose.xsd" />
+			<file href="Content/player/Course/xls_1/lomStrict.xsd" />
+			<file href="Content/player/Course/xls_1/meta.xml" />
+			<file href="Content/player/Course/xls_1/metadata.xml" />
+			<file href="Content/player/Course/xls_1/story.html" />
+			<file href="Content/player/Course/xls_1/xml.xsd" />
+			<file href="Content/player/Course/xls_1/XMLSchema.dtd" />
+			<file href="Content/player/Course/xls_1_final/common/anyElement.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/dataTypes.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/elementNames.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/elementTypes.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/rootElement.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/vocabTypes.xsd" />
+			<file href="Content/player/Course/xls_1_final/common/vocabValues.xsd" />
+			<file href="Content/player/Course/xls_1_final/extend/custom.xsd" />
+			<file href="Content/player/Course/xls_1_final/extend/strict.xsd" />
+			<file href="Content/player/Course/xls_1_final/html5/data/css/output.min.css" />
+			<file href="Content/player/Course/xls_1_final/html5/data/js/6GyEdGov2jp.js" />
+			<file href="Content/player/Course/xls_1_final/html5/data/js/data.js" />
+			<file href="Content/player/Course/xls_1_final/html5/data/js/frame.js" />
+			<file href="Content/player/Course/xls_1_final/html5/data/js/paths.js" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/scripts/bootstrapper.min.js" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/scripts/frame.desktop.min.js" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/scripts/frame.mobile.min.js" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/scripts/slides.min.js" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/stylesheets/desktop.min.css" />
+			<file href="Content/player/Course/xls_1_final/html5/lib/stylesheets/mobile.min.css" />
+			<file href="Content/player/Course/xls_1_final/lms/AICCComm.html" />
+			<file href="Content/player/Course/xls_1_final/lms/blank.html" />
+			<file href="Content/player/Course/xls_1_final/lms/browsersniff.js" />
+			<file href="Content/player/Course/xls_1_final/lms/goodbye.html" />
+			<file href="Content/player/Course/xls_1_final/lms/scormdriver.js" />
+			<file href="Content/player/Course/xls_1_final/mobile/68AlAq1BRgT.png" />
+			<file href="Content/player/Course/xls_1_final/story_content/frame.xml" />
+			<file href="Content/player/Course/xls_1_final/story_content/thumbnail.jpg" />
+			<file href="Content/player/Course/xls_1_final/story_content/user.js" />
+			<file href="Content/player/Course/xls_1_final/unique/loose.xsd" />
+			<file href="Content/player/Course/xls_1_final/unique/strict.xsd" />
+			<file href="Content/player/Course/xls_1_final/vocab/custom.xsd" />
+			<file href="Content/player/Course/xls_1_final/vocab/loose.xsd" />
+			<file href="Content/player/Course/xls_1_final/vocab/strict.xsd" />
+			<file href="Content/player/Course/xls_1_final/adlcp_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1_final/adlnav_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1_final/adlseq_v1p3.xsd" />
+			<file href="Content/player/Course/xls_1_final/analytics-frame.html" />
+			<file href="Content/player/Course/xls_1_final/datatypes.dtd" />
+			<file href="Content/player/Course/xls_1_final/imscp_v1p1.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0auxresource.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0control.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0delivery.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0limit.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0objective.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0random.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0rollup.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0seqrule.xsd" />
+			<file href="Content/player/Course/xls_1_final/imsss_v1p0util.xsd" />
+			<file href="Content/player/Course/xls_1_final/ims_xml.xsd" />
+			<file href="Content/player/Course/xls_1_final/index_lms.html" />
+			<file href="Content/player/Course/xls_1_final/lom.xsd" />
+			<file href="Content/player/Course/xls_1_final/lomCustom.xsd" />
+			<file href="Content/player/Course/xls_1_final/lomLoose.xsd" />
+			<file href="Content/player/Course/xls_1_final/lomStrict.xsd" />
+			<file href="Content/player/Course/xls_1_final/meta.xml" />
+			<file href="Content/player/Course/xls_1_final/metadata.xml" />
+			<file href="Content/player/Course/xls_1_final/story.html" />
+			<file href="Content/player/Course/xls_1_final/xml.xsd" />
+			<file href="Content/player/Course/xls_1_final/XMLSchema.dtd" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-500.eot" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-500.svg" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-500.ttf" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-500.woff" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-500.woff2" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-700.eot" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-700.svg" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-700.ttf" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-700.woff" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-700.woff2" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-900.eot" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-900.svg" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-900.ttf" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-900.woff" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-900.woff2" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-regular.eot" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-regular.svg" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-regular.ttf" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-regular.woff" />
+			<file href="Content/player/fonts/inter-v3-latin_cyrillic-regular.woff2" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-500.eot" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-500.svg" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-500.ttf" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-500.woff" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-500.woff2" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-700.eot" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-700.svg" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-700.ttf" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-700.woff" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-700.woff2" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-900.eot" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-900.svg" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-900.ttf" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-900.woff" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-900.woff2" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-regular.eot" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-regular.svg" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-regular.ttf" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-regular.woff" />
+			<file href="Content/player/fonts/roboto-v27-latin_cyrillic-regular.woff2" />
+			<file href="Content/player/fonts.css" />
+			<file href="Content/player/index.html" />
+			<file href="Content/player/mediaplayer.css" />
+			<file href="Content/player/mediaplayer.umd.js" />
+			<file href="extend/custom.xsd" />
+			<file href="extend/strict.xsd" />
+			<file href="unique/loose.xsd" />
+			<file href="unique/strict.xsd" />
+			<file href="vocab/custom.xsd" />
+			<file href="vocab/loose.xsd" />
+			<file href="vocab/strict.xsd" />
+			<file href="adlcp_v1p3.xsd" />
+			<file href="adlnav_v1p3.xsd" />
+			<file href="adlseq_v1p3.xsd" />
+			<file href="datatypes.dtd" />
+			<file href="imscp_v1p1.xsd" />
+			<file href="imsmanifest.xml" />
+			<file href="imsss_v1p0.xsd" />
+			<file href="imsss_v1p0auxresource.xsd" />
+			<file href="imsss_v1p0control.xsd" />
+			<file href="imsss_v1p0delivery.xsd" />
+			<file href="imsss_v1p0limit.xsd" />
+			<file href="imsss_v1p0objective.xsd" />
+			<file href="imsss_v1p0random.xsd" />
+			<file href="imsss_v1p0rollup.xsd" />
+			<file href="imsss_v1p0seqrule.xsd" />
+			<file href="imsss_v1p0util.xsd" />
+			<file href="ims_xml.xsd" />
+			<file href="lom.xsd" />
+			<file href="lomCustom.xsd" />
+			<file href="lomLoose.xsd" />
+			<file href="lomStrict.xsd" />
+			<file href="xml.xsd" />
+			<file href="XMLSchema.dtd" />
+		</resource>
+		<resource identifier="RES-10xls1910101" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910101" >
+		</resource>
+		<resource identifier="RES-13xls1910102" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910102" >
+		</resource>
+		<resource identifier="RES-16xls1910103" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910103" >
+		</resource>
+		<resource identifier="RES-19xls1910104" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910104" >
+		</resource>
+		<resource identifier="RES-22xls1910105" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910105" >
+		</resource>
+		<resource identifier="RES-25xls1910106" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910106" >
+		</resource>
+		<resource identifier="RES-28xls1910107" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910107" >
+		</resource>
+		<resource identifier="RES-31xls1910108" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910108" >
+		</resource>
+		<resource identifier="RES-34xls1910109" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910109" >
+		</resource>
+		<resource identifier="RES-37xls1910110" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910110/index_lms.html" >
+		</resource>
+		<resource identifier="RES-43xls1910201" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910201" >
+		</resource>
+		<resource identifier="RES-46xls1910202" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910202" >
+		</resource>
+		<resource identifier="RES-49xls1910203" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910203" >
+		</resource>
+		<resource identifier="RES-52xls1910204" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910204" >
+		</resource>
+		<resource identifier="RES-55xls1910205" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910205" >
+		</resource>
+		<resource identifier="RES-58xls1910206" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910206/index_lms.html" >
+		</resource>
+		<resource identifier="RES-64xls1910301" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910301" >
+		</resource>
+		<resource identifier="RES-67xls1910302" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910302" >
+		</resource>
+		<resource identifier="RES-70xls1910303" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910303" >
+		</resource>
+		<resource identifier="RES-73xls1910304" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910304/index_lms.html" >
+		</resource>
+		<resource identifier="RES-79xls1910401" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910401" >
+		</resource>
+		<resource identifier="RES-82xls1910402" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910402" >
+		</resource>
+		<resource identifier="RES-85xls1910403" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910403" >
+		</resource>
+		<resource identifier="RES-88xls1910404" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910404" >
+		</resource>
+		<resource identifier="RES-91xls1910405" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910405" >
+		</resource>
+		<resource identifier="RES-94xls1910406" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910406/index_lms.html" >
+		</resource>
+		<resource identifier="RES-100xls1910501" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910501" >
+		</resource>
+		<resource identifier="RES-103xls1910502" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910502" >
+		</resource>
+		<resource identifier="RES-106xls1910503" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910503" >
+		</resource>
+		<resource identifier="RES-109xls1910504" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910504" >
+		</resource>
+		<resource identifier="RES-112xls1910505" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910505" >
+		</resource>
+		<resource identifier="RES-115xls1910506" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910506/index_lms.html" >
+		</resource>
+		<resource identifier="RES-121xls1910601" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910601" >
+		</resource>
+		<resource identifier="RES-124xls1910602" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910602" >
+		</resource>
+		<resource identifier="RES-127xls1910603" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910603" >
+		</resource>
+		<resource identifier="RES-130xls1910604" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910604" >
+		</resource>
+		<resource identifier="RES-133xls1910605" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910605" >
+		</resource>
+		<resource identifier="RES-136xls1910606" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910606" >
+		</resource>
+		<resource identifier="RES-139xls1910607" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910607" >
+		</resource>
+		<resource identifier="RES-142xls1910608" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910608" >
+		</resource>
+		<resource identifier="RES-145xls1910609" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910609/index_lms.html" >
+		</resource>
+		<resource identifier="RES-151xls1910701" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910701" >
+		</resource>
+		<resource identifier="RES-154xls1910702" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910702" >
+		</resource>
+		<resource identifier="RES-157xls1910703" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910703" >
+		</resource>
+		<resource identifier="RES-160xls1910704" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910704" >
+		</resource>
+		<resource identifier="RES-163xls1910705" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910705" >
+		</resource>
+		<resource identifier="RES-166xls1910706" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910706/index_lms.html" >
+		</resource>
+		<resource identifier="RES-172xls1910801" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910801" >
+		</resource>
+		<resource identifier="RES-175xls1910802" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910802" >
+		</resource>
+		<resource identifier="RES-178xls1910803" type="webcontent" adlcp:scormType="sco" href="Content/player/index.html?srcqwe=xls1910803" >
+		</resource>
+		<resource identifier="RES-181xls1910804" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls1910804/index_lms.html" >
+		</resource>
+		<resource identifier="RES-187xls_1_final" type="webcontent" adlcp:scormType="sco" href="Content/player/Course/xls_1_final/index_lms.html" >
+		</resource>
+	</resources>
+	<imsss:sequencingCollection > <imsss:sequencing ID = "common_seq_rules" >   <imsss:deliveryControls completionSetByContent = "true" objectiveSetByContent = "true" />     </imsss:sequencing >      </imsss:sequencingCollection >
+	</manifest>
