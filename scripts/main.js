@@ -17839,25 +17839,23 @@
       
         const ea = (function (e) {
         function t(t) {
-          var n = e.call(this, t) || this;
-          (n.canvasContainer = null), (n.currentLine = 0);
+          var canvas = e.call(this, t) || this;
+          (canvas.canvasContainer = null), (canvas.currentLine = 0);
 
           var welcome_sec = document.querySelector(".".concat("welcome"));
 
           if (!welcome_sec) throw new Error("Cant initialize Welcome Screen");
           
-          (n.root = welcome_sec),
-            (n.canvasContainer = n.root.querySelector(
-              ".".concat("welcome__canvas-container")
-            )),
-            n.processCanvas();
-          var r = n.root.querySelector(".".concat("js-typing"));
+          (canvas.root = welcome_sec),
+            (canvas.canvasContainer = canvas.root.querySelector(".".concat("welcome__canvas-container"))),
+            canvas.processCanvas();
+          var r = canvas.root.querySelector(".".concat("js-typing"));
           return (
             r &&
-              ((n.typingController = new s(r)),
-              n.typingController.forceClear()),
-            n.startSwapLines(),
-            n
+              ((canvas.typingController = new s(r)),
+              canvas.typingController.forceClear()),
+            canvas.startSwapLines(),
+            canvas
           );
         }
 
@@ -17889,7 +17887,7 @@
                 i = new wn();
               n.add(i);
               var r = 0,
-                s = new fn(
+                swiming_shape = new fn(
                   new ps(1, 50, 50),
                   new yn({
                     vertexShader:
@@ -17899,7 +17897,7 @@
                     uniforms: { time: { value: r } },
                   })
                 );
-              s.position.set(0, 0, -5), n.add(s);
+              swiming_shape.position.set(0, 0, -5), n.add(swiming_shape);
               var a = function () {
                 var n, r;
                 (t.domElement.style.display = "none"),
@@ -17925,7 +17923,7 @@
                   o &&
                     (t.clear(),
                     r++,
-                    (s.material.uniforms.time.value = r),
+                    (swiming_shape.material.uniforms.time.value = r),
                     t.render(n, i));
                 });
             }
@@ -21808,6 +21806,7 @@
         (ho.insertStyleElement = oo()),
         Qa()(uo.Z, ho),
         uo.Z && uo.Z.locals && uo.Z.locals;
+      
       var po = (function () {
         var e = function (t, n) {
           return (
@@ -21841,6 +21840,7 @@
                 : ((i.prototype = n.prototype), new i()));
         };
       })();
+      
       Ka.use([
         function (e) {
           let t,
@@ -21984,13 +21984,16 @@
             Object.assign(n.autoplay, { pause: c, run: a, start: o, stop: l });
         },
       ]);
-      const fo = (function (e) {
+
+      const our_pr_sec = (function (e) {
+
         function t(t) {
           var n = e.call(this, t) || this,
             i = document.querySelector(".".concat("inwork"));
           if (!i) throw new Error("Cant initialize Inwork Screen");
           return (n.root = i), n.initializeSlider(), n;
         }
+
         return (
           po(t, e),
           (t.prototype.isCanBeChanged = function (e) {
@@ -22011,6 +22014,8 @@
           t
         );
       })(t);
+
+
       var mo = (function () {
         var e = function (t, n) {
           return (
@@ -25965,6 +25970,7 @@
                   e.showForm();
               });
           }),
+
           (t.prototype.showForm = function () {
             var e = this;
             if (this.canBeShowed) {
@@ -25991,6 +25997,7 @@
                 }, t + 500);
             }
           }),
+
           (t.prototype.hideForm = function () {
             var e = this;
             (this.canBeShowed = !1),
@@ -26042,7 +26049,7 @@
         Pl = [
           { current: "" === Ll || "#welcome" === Ll, screen: ea },
           { current: "#steps" === Ll, screen: ia },
-          { current: "#inwork" === Ll, screen: fo },
+          { current: "#inwork" === Ll, screen: our_pr_sec },
           { current: "#clients" === Ll, screen: go },
           { current: "#create" === Ll, screen: Al },
         ];
