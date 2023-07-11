@@ -289,6 +289,9 @@
     (n.b = document.baseURI || self.location.href),
     (n.nc = void 0),
     (() => {
+      
+      
+      
       const e = (function () {
           function e(e) {
             this.screens = [];
@@ -364,6 +367,8 @@
             e
           );
         })(),
+
+
         t = (function () {
           function e(e) {
             (this.isCurrent = !1), (this.screenController = e);
@@ -18133,19 +18138,23 @@
           };
         })(),
         na = "current";
+
+
       const ia = (function (e) {
+        
+        
         function t(t) {
           var n = e.call(this, t) || this;
           (n.canvasRoot = null), (n.body = null);
           var i = document.querySelector(".".concat("steps"));
           if (!i) throw new Error("Cant initialize Steps Screen");
+          
           (n.root = i),
             (n.stepsList = n.root.querySelectorAll(".".concat("steps__item"))),
             (n.currentStep = Array.from(n.stepsList).findIndex(function (e) {
               return e.classList.contains(na);
             })),
-            (n.canvasRoot = n.root.querySelector(
-              ".".concat("steps__canvas-container")
+            (n.canvasRoot = n.root.querySelector(".".concat("steps__canvas-container")
             )),
             n.canvasRoot && n.processCanvas(),
             n.changeCurrentStep(n.calculateCurrentStep());
@@ -18158,6 +18167,8 @@
             n
           );
         }
+
+
         return (
           ta(t, e),
           (t.prototype.changeCurrentStep = function (e) {
@@ -18171,6 +18182,9 @@
           (t.prototype.isCanBeChanged = function (e) {
             return !0;
           }),
+
+
+
           (t.prototype.calculateCurrentStep = function () {
             var e =
               ((window.scrollY - window.innerHeight / 2) /
@@ -18180,6 +18194,9 @@
             var t = Math.floor(e * this.stepsList.length - 1);
             return (t = Math.min(this.stepsList.length - 1, t)), Math.max(0, t);
           }),
+
+
+
           (t.prototype.addListeners = function () {
             var e = this;
             window.addEventListener("scroll", function () {
@@ -21840,7 +21857,7 @@
                 : ((i.prototype = n.prototype), new i()));
         };
       })();
-      
+
       Ka.use([
         function (e) {
           let t,
