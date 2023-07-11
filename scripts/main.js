@@ -289,9 +289,6 @@
     (n.b = document.baseURI || self.location.href),
     (n.nc = void 0),
     (() => {
-      
-      
-      
       const e = (function () {
           function e(e) {
             this.screens = [];
@@ -367,8 +364,6 @@
             e
           );
         })(),
-
-
         t = (function () {
           function e(e) {
             (this.isCurrent = !1), (this.screenController = e);
@@ -17806,9 +17801,10 @@
       })();
       Zs.start();
       const $s = Zs;
-      
-      
-      var Ks,Js = ((Ks = function (e, t) {
+
+      var Ks,
+        Js =
+          ((Ks = function (e, t) {
             return (
               (Ks =
                 Object.setPrototypeOf ||
@@ -17823,7 +17819,6 @@
               Ks(e, t)
             );
           }),
-
           function (e, t) {
             if ("function" != typeof t && null !== t)
               throw new TypeError(
@@ -17841,8 +17836,8 @@
                   : ((n.prototype = t.prototype), new n()));
           }),
         aims_list = ["штуки", "работающие решения", "ценности"];
-      
-        const ea = (function (e) {
+
+      const ea = (function (e) {
         function t(t) {
           var canvas = e.call(this, t) || this;
           (canvas.canvasContainer = null), (canvas.currentLine = 0);
@@ -17850,9 +17845,11 @@
           var welcome_sec = document.querySelector(".".concat("welcome"));
 
           if (!welcome_sec) throw new Error("Cant initialize Welcome Screen");
-          
+
           (canvas.root = welcome_sec),
-            (canvas.canvasContainer = canvas.root.querySelector(".".concat("welcome__canvas-container"))),
+            (canvas.canvasContainer = canvas.root.querySelector(
+              ".".concat("welcome__canvas-container")
+            )),
             canvas.processCanvas();
           var r = canvas.root.querySelector(".".concat("js-typing"));
           return (
@@ -17863,7 +17860,6 @@
             canvas
           );
         }
-
 
         return (
           Js(t, e),
@@ -18102,8 +18098,6 @@
         );
       })(t);
 
-
-
       var ta = (function () {
           var e = function (t, n) {
             return (
@@ -18139,22 +18133,20 @@
         })(),
         na = "current";
 
-
       const ia = (function (e) {
-        
-        
         function t(t) {
           var n = e.call(this, t) || this;
           (n.canvasRoot = null), (n.body = null);
           var i = document.querySelector(".".concat("steps"));
           if (!i) throw new Error("Cant initialize Steps Screen");
-          
+
           (n.root = i),
             (n.stepsList = n.root.querySelectorAll(".".concat("steps__item"))),
             (n.currentStep = Array.from(n.stepsList).findIndex(function (e) {
               return e.classList.contains(na);
             })),
-            (n.canvasRoot = n.root.querySelector(".".concat("steps__canvas-container")
+            (n.canvasRoot = n.root.querySelector(
+              ".".concat("steps__canvas-container")
             )),
             n.canvasRoot && n.processCanvas(),
             n.changeCurrentStep(n.calculateCurrentStep());
@@ -18167,7 +18159,6 @@
             n
           );
         }
-
 
         return (
           ta(t, e),
@@ -18182,9 +18173,6 @@
           (t.prototype.isCanBeChanged = function (e) {
             return !0;
           }),
-
-
-
           (t.prototype.calculateCurrentStep = function () {
             var e =
               ((window.scrollY - window.innerHeight / 2) /
@@ -18194,9 +18182,6 @@
             var t = Math.floor(e * this.stepsList.length - 1);
             return (t = Math.min(this.stepsList.length - 1, t)), Math.max(0, t);
           }),
-
-
-
           (t.prototype.addListeners = function () {
             var e = this;
             window.addEventListener("scroll", function () {
@@ -21823,7 +21808,7 @@
         (ho.insertStyleElement = oo()),
         Qa()(uo.Z, ho),
         uo.Z && uo.Z.locals && uo.Z.locals;
-      
+
       var po = (function () {
         var e = function (t, n) {
           return (
@@ -22003,7 +21988,6 @@
       ]);
 
       const our_pr_sec = (function (e) {
-
         function t(t) {
           var n = e.call(this, t) || this,
             i = document.querySelector(".".concat("inwork"));
@@ -22031,7 +22015,6 @@
           t
         );
       })(t);
-
 
       var mo = (function () {
         var e = function (t, n) {
@@ -25813,10 +25796,7 @@
         globalThis.IMask = jo;
       } catch (e) {}
 
-
       var xl = (function () {
-
-
           function e() {
             this.mobileMask = null;
             var e = document.querySelector(".".concat("form"));
@@ -25831,7 +25811,6 @@
             (this.mobileInput = t), this.initializeMasks();
           }
 
-
           return (
             (e.prototype.initializeMasks = function () {
               this.mobileMask = jo(this.mobileInput, {
@@ -25842,8 +25821,6 @@
             e
           );
         })(),
-
-        
         yl = "tiny";
       const bl =
         ((wl = document.querySelector(".".concat("header"))),
@@ -25910,9 +25887,7 @@
           };
         })();
 
-
       const Al = (function (e) {
-
         function t(t) {
           var n = e.call(this, t) || this;
           (n.finish = !1), (n.lastTouch = null), (n.canBeShowed = !0);
@@ -25936,7 +25911,7 @@
             n
           );
         }
-        
+
         return (
           Tl(t, e),
           (t.prototype.show = function () {
@@ -25948,7 +25923,6 @@
           (t.prototype.isCanBeChanged = function (e) {
             return !0;
           }),
-
           (t.prototype.addListeners = function () {
             var e = this;
             bl.onBtnClick(function () {
@@ -25965,7 +25939,6 @@
                 e.hideForm();
               });
           }),
-
           (t.prototype.handlePoint = function () {
             var e = this;
             new IntersectionObserver(
@@ -26001,7 +25974,6 @@
                   e.showForm();
               });
           }),
-
           (t.prototype.showForm = function () {
             var e = this;
             if (this.canBeShowed) {
@@ -26028,7 +26000,6 @@
                 }, t + 500);
             }
           }),
-
           (t.prototype.hideForm = function () {
             var e = this;
             (this.canBeShowed = !1),
@@ -26055,12 +26026,11 @@
         );
       })(t);
 
-
       var Cl = (function () {
           function e() {
             var e = document.querySelector(".scroll");
             if (!e) throw new Error("Cant initialize scroll");
-            (this.scrollElm = e)
+            this.scrollElm = e;
             this.addListeners();
           }
           return (
@@ -26075,7 +26045,6 @@
             e
           );
         })(),
-
         Ll = location.hash,
         Pl = [
           { current: "" === Ll || "#welcome" === Ll, screen: ea },
@@ -26085,17 +26054,12 @@
           { current: "#create" === Ll, screen: Al },
         ];
 
-      
-        window.onload = function () {
-        document.body.classList.add("initialized"),
-        new e(Pl)
-        new Cl()
+      window.onload = function () {
+        document.body.classList.add("initialized"), new e(Pl);
+        new Cl();
         bl.onLogoClick(function () {
-            window.scroll({ top: 0, behavior: "smooth" });
-          });
+          window.scroll({ top: 0, behavior: "smooth" });
+        });
       };
     })();
-
-
-
 })();

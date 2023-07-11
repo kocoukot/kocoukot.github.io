@@ -1,6 +1,5 @@
 let creat_btn = document.querySelectorAll(".create__item-btn");
 
-
 export function init_section() {
   var n = document;
 
@@ -35,13 +34,25 @@ export function showForm() {
   document.body.classList.add("form-visible");
   document.transitionButton.classList.add("full");
   document.transition.classList.add("visible");
+  var phoneInput = document.getElementById('phone-input');
+  var phoneMask = new Inputmask('+7 (999) 999-99-99');
+  phoneMask.mask(phoneInput);
+  
 }
 
-export function hideForm(){
-  document.transitionButton = document.querySelector(
-    ".create__transition-button"
-  );
-  document.body.classList.remove("form-visible");
-  document.transitionButton.classList.remove("full");
-  document.transition.classList.remove("visible");
+export function hideForm() {
+  document.body.classList.add("form-hide");
+  setTimeout(function () {
+    document.body.classList.remove("point-active"),
+      document.body.classList.remove("form-visible"),
+      document.body.classList.remove("point-active"),
+      document.transitionButton.classList.remove("text-visible"),
+      document.transition.classList.remove("visible"),
+      document.transitionButton.classList.remove("moved"),
+      document.transitionButton.classList.remove("full"),
+      document.transitionButton.classList.remove("partial-visible"),
+      setTimeout(function () {
+        document.body.classList.remove("form-hide");
+      }, 500);
+  }, 1000);
 }

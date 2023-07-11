@@ -344,7 +344,7 @@
             <div class="materials__item-right">
               <a
                 class="btn high w160 thin materials__item-btn"
-                href="spirits.pdf"
+                href="/assets/docs/spirits.pdf"
                 download
                 >Посмотреть</a
               >
@@ -360,7 +360,7 @@
             <div class="materials__item-right">
               <a
                 class="btn high w160 thin materials__item-btn"
-                href="mobile.pdf"
+                href="/assets/docs/mobile.pdf"
                 download
                 >Посмотреть</a
               >
@@ -376,7 +376,7 @@
             <div class="materials__item-right">
               <a
                 class="btn high w160 thin materials__item-btn"
-                href="armuseum.pdf"
+                href="/assets/docs/armuseum.pdf"
                 download
                 >Посмотреть</a
               >
@@ -394,7 +394,7 @@
             <div class="materials__item-right">
               <a
                 class="btn high w160 thin materials__item-btn"
-                href="ardev.pdf"
+                href="/assets/docs/ardev.pdf"
                 download
                 >Посмотреть</a
               >
@@ -410,7 +410,7 @@
             <div class="materials__item-right">
               <a
                 class="btn high w160 thin materials__item-btn"
-                href="game.pdf"
+                href="/assets/docs/game.pdf"
                 download
                 >Посмотреть</a
               >
@@ -495,8 +495,6 @@
           </button>
         </div>
 
-
-
         <div class="form">
           <form class="form__body" method="post" action="mail.php">
             <div class="form__line form__parallel">
@@ -512,10 +510,12 @@
                   />
                 </div>
               </label>
+
               <label class="form__field">
                 <div class="form__field-label">Номер телефона</div>
                 <div class="form__field-input-wrapper mobile">
                   <input
+                    id="phone-input"
                     class="form__field-input"
                     name="phone"
                     required
@@ -544,9 +544,13 @@
 
           <div class="center">
             <a class="form__mobile" href="tel:+79272003852">
-              <!-- <svg class="form__mobile-icon" width="30" height="30">
-                <use href="/assets/icons/sprite.svg#telephone"></use></svg> -->
-                <span  class="form__mobile-text">Позвонить +7 (927) 200-38-52</span></a>
+              <svg class="form__mobile-icon" width="30" height="30">
+                <use href="/assets/icons/telephone.svg#logo"></use>
+              </svg>
+              <span class="form__mobile-text"
+                >Позвонить +7 (927) 200-38-52</span
+              ></a
+            >
           </div>
         </div>
       </div>
@@ -560,23 +564,27 @@
 
     <script
       type="module"
-      src="/scripts/src/sections/section_welcome.js">
-    </script>
+      src="/scripts/src/sections/section_welcome.js"
+    ></script>
     <script
       type="module"
-      src="/scripts/src/sections/section_our_steps.js">
-    </script>
+      src="/scripts/src/sections/section_our_steps.js"
+    ></script>
     <script
       type="module"
-      src="/scripts/src/sections/section_create_form.js">
-    </script>
+      src="/scripts/src/sections/section_create_form.js"
+    ></script>
     <script
-    type="module"
-    src="/scripts/src/sections/section_our_projects.js">
-  </script>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      type="module"
+      src="/scripts/src/sections/section_our_projects.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="/scripts/main_new.js"></script>
+    <script type="module" src="/scripts/ext/inputmask.min.js"></script>
 
     <!-- <script src="/scripts/main.js"></script> -->
 
