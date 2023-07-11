@@ -1,11 +1,11 @@
-import welcome_section from "./src/sections/section_welcome.js";
-import { scroll_listener } from "./src/sections/section_our_steps.js";
-import our_projects_section from "./src/sections/section_our_projects.js";
+import welcome_section from "./sections/section_welcome.js";
+import { scroll_listener } from "./sections/section_our_steps.js";
+import our_projects_section from "./sections/section_our_projects.js";
 import {
   init_section,
   showForm,
   hideForm,
-} from "./src/sections/section_create_form.js";
+} from "./sections/section_create_form.js";
 
 window.addEventListener("scroll", scroll_listener);
 
