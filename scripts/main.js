@@ -25812,7 +25812,11 @@
       try {
         globalThis.IMask = jo;
       } catch (e) {}
+
+
       var xl = (function () {
+
+
           function e() {
             this.mobileMask = null;
             var e = document.querySelector(".".concat("form"));
@@ -25826,6 +25830,8 @@
             if (!t) throw new Error("Cant find mobile input");
             (this.mobileInput = t), this.initializeMasks();
           }
+
+
           return (
             (e.prototype.initializeMasks = function () {
               this.mobileMask = jo(this.mobileInput, {
@@ -25836,6 +25842,8 @@
             e
           );
         })(),
+
+        
         yl = "tiny";
       const bl =
         ((wl = document.querySelector(".".concat("header"))),
@@ -25901,7 +25909,10 @@
                   : ((i.prototype = n.prototype), new i()));
           };
         })();
+
+
       const Al = (function (e) {
+
         function t(t) {
           var n = e.call(this, t) || this;
           (n.finish = !1), (n.lastTouch = null), (n.canBeShowed = !0);
@@ -25925,6 +25936,7 @@
             n
           );
         }
+        
         return (
           Tl(t, e),
           (t.prototype.show = function () {
@@ -25936,6 +25948,7 @@
           (t.prototype.isCanBeChanged = function (e) {
             return !0;
           }),
+
           (t.prototype.addListeners = function () {
             var e = this;
             bl.onBtnClick(function () {
@@ -25952,6 +25965,7 @@
                 e.hideForm();
               });
           }),
+
           (t.prototype.handlePoint = function () {
             var e = this;
             new IntersectionObserver(

@@ -1,7 +1,6 @@
 var selected_sec_name = "current";
 var sec_doc = document;
-var i = document.querySelector(".".concat("steps"));
-sec_doc.root = i;
+sec_doc.root = document.querySelector(".".concat("steps"));;
 sec_doc.stepsList = sec_doc.root.querySelectorAll(".".concat("steps__item"));
 sec_doc.canvasRoot = sec_doc.root.querySelector(
   ".".concat("steps__canvas-container")

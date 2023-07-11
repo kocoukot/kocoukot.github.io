@@ -1568,6 +1568,7 @@ textarea.form__field-input {
 }
 
 .form__mobile-text {
+padding: 4;
     font-size: 1.5rem;
     font-weight: bold;
     color: #000
