@@ -55,9 +55,15 @@ const fragmentShader = `
 let scene, camera, renderer;
 let geometry, mesh, material;
 let mouse, center;
+const height = window.innerHeight
+const width = window.innerWidth
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	height = window.innerHeight * 0.7
+	width = window.innerWidth	 * 0.7
+  }
 export function startSwapLines() {
   init();
-  initGUI()
+  initGUI();
   animate();
 }
 
@@ -95,8 +101,12 @@ function init() {
     vertices[i + 1] = Math.floor(j / width);
   }
 
-  geometry.setAttribute("position", new THREE.BufferAttribute(vertices, 3));
 
+  geometry.setAttribute("position", new THREE.BufferAttribute(vertices, 3));
+  const zOffset = 200
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+	zOffset = 20
+  }
   material = new THREE.ShaderMaterial({
     uniforms: {
       map: { value: texture },
@@ -118,13 +128,11 @@ function init() {
   mesh = new THREE.Points(geometry, material);
   scene.add(mesh);
 
- 
-    video.play();
-
-
+  video.play();
 
   renderer = new THREE.WebGLRenderer({ alpha: true });
   renderer.setPixelRatio(window.devicePixelRatio);
+
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.useLegacyLights = false;
   container.appendChild(renderer.domElement);
@@ -164,15 +172,14 @@ function render() {
   renderer.render(scene, camera);
 }
 
-function initGUI(){
-	const gui = new GUI();
-	gui
-	  .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
-	  .name("nearClipping");
-	gui
-	  .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
-	  .name("farClipping");
-	gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
-	gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
-  
+function initGUI() {
+  const gui = new GUI();
+  gui
+    .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
+    .name("nearClipping");
+  gui
+    .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
+    .name("farClipping");
+  gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
+  gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
 }
