@@ -59,7 +59,7 @@ let mouse, center;
 export function startSwapLines() {
   init();
   // initGUI();
-  // animate();
+  animate();
 }
 
 function init() {

@@ -57,27 +57,19 @@ function init() {
   var container = document.querySelector(".steps__canvas-container")
   renderer = new THREE.WebGLRenderer({alpha:true});
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(window.innerWidth*2 /3 , window.innerHeight*2/3);
+  renderer.setSize(window.innerWidth /2 , window.innerHeight*2/3);
   renderer.useLegacyLights = false;
 
   clock = new THREE.Clock();
 
   camera = new THREE.PerspectiveCamera(
-    75,
+    45,
     window.innerWidth / window.innerHeight,
     1,
-    1000
+    150
   );
-  camera.position.z = 12;
-
-
-
+  camera.position.z = 35;
   container.appendChild(renderer.domElement);
-
-  // camera controls  with mouse 
-  // const controls = new OrbitControls(camera, renderer.domElement);
-  // controls.target.set(0, 0, 0);
-  // controls.update();
 
   // scene
 
@@ -85,13 +77,14 @@ function init() {
   scene.background = new THREE.Color(0xffffff);
 
   group = new THREE.Group();
-  const floor = new THREE.Mesh(
-    new THREE.BoxGeometry(100, 1, 100),
-  );
-  floor.position.y = -10;
-  const light = new THREE.PointLight(0xffffff, 150);
-  light.position.y = 2;
-  group.add(floor, light);
+  // const floor = new THREE.Mesh(
+  //   new THREE.BoxGeometry(100, 1, 100),
+  // );
+  
+  // floor.position.y = -10;
+  // const light = new THREE.PointLight(0xffffff, 150);
+  // light.position.y = 2;
+  // group.add(floor, light);
   scene.add(group);
 
   const mat = new THREE.ShaderMaterial({
@@ -116,20 +109,20 @@ function init() {
 
       "void main() {",
 
-      "vec4 c = vec4( abs( vNormal ) + vec3( vUV, 0.0 ), 0.0 );",
+      "vec4 c = vec4( abs( vNormal ) + vec3( vUV, 0.9 ), 0.0 );",
       "gl_FragColor = c;",
 
       "}",
     ].join("\n"),
   });
 
-  for (let i = 0; i < 10; ++i) {
+  for (let i = 0; i < 15; ++i) {
     // fill scene with coloured cubes
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(2, 2, 2), mat);
     mesh.position.set(
-      Math.random() * 16 - 8,
-      Math.random() * 16 - 8,
-      Math.random() * 16 - 8
+      Math.random() * 18 - 8,
+      Math.random() * 18 - 8,
+      Math.random() * 18 - 8
     );
     mesh.rotation.set(
       Math.random() * Math.PI * 2,
@@ -143,15 +136,16 @@ function init() {
 
   composer = new EffectComposer(renderer);
   const renderPass = new RenderPass(scene, camera);
+
   const params = {
     shape: 1,
-    radius: 4,
+    radius:6,
     rotateR: Math.PI / 12,
     rotateB: (Math.PI / 12) * 2,
     rotateG: (Math.PI / 12) * 3,
-    scatter: 0,
+    scatter: 1,
     blending: 1,
-    blendingMode: 1,
+    blendingMode: 2,
     greyscale: false,
     disable: false,
   };
@@ -165,7 +159,7 @@ function init() {
 
   window.onresize = function () {
     // resize composer
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth*2/3, window.innerHeight*2/3);
     composer.setSize(window.innerWidth, window.innerHeight);
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
@@ -175,41 +169,43 @@ function init() {
 
  
 
-
-  const controller = {
-    radius: halftonePass.uniforms["radius"].value,
-    rotateR: halftonePass.uniforms["rotateR"].value / (Math.PI / 180),
-    rotateG: halftonePass.uniforms["rotateG"].value / (Math.PI / 180),
-    rotateB: halftonePass.uniforms["rotateB"].value / (Math.PI / 180),
-    scatter: halftonePass.uniforms["scatter"].value,
-    shape: halftonePass.uniforms["shape"].value,
-    greyscale: halftonePass.uniforms["greyscale"].value,
-    blending: halftonePass.uniforms["blending"].value,
-    blendingMode: halftonePass.uniforms["blendingMode"].value,
-    disable: halftonePass.uniforms["disable"].value,
-  };
-
-  const gui = new GUI();
-  gui
-    .add(controller, "shape", { Dot: 1, Ellipse: 2, Line: 3, Square: 4 })
-    .onChange(onGUIChange);
-  gui.add(controller, "radius", 1, 25).onChange(onGUIChange);
-  gui.add(controller, "rotateR", 0, 90).onChange(onGUIChange);
-  gui.add(controller, "rotateG", 0, 90).onChange(onGUIChange);
-  gui.add(controller, "rotateB", 0, 90).onChange(onGUIChange);
-  gui.add(controller, "scatter", 0, 1, 0.01).onChange(onGUIChange);
-  gui.add(controller, "greyscale").onChange(onGUIChange);
-  gui.add(controller, "blending", 0, 1, 0.01).onChange(onGUIChange);
-  gui
-    .add(controller, "blendingMode", {
-      Linear: 1,
-      Multiply: 2,
-      Add: 3,
-      Lighter: 4,
-      Darker: 5,
-    })
-    .onChange(onGUIChange);
-  gui.add(controller, "disable").onChange(onGUIChange);
+  function initGui(){
+    const controller = {
+      radius: halftonePass.uniforms["radius"].value,
+      rotateR: halftonePass.uniforms["rotateR"].value / (Math.PI / 180),
+      rotateG: halftonePass.uniforms["rotateG"].value / (Math.PI / 180),
+      rotateB: halftonePass.uniforms["rotateB"].value / (Math.PI / 180),
+      scatter: halftonePass.uniforms["scatter"].value,
+      shape: halftonePass.uniforms["shape"].value,
+      greyscale: halftonePass.uniforms["greyscale"].value,
+      blending: halftonePass.uniforms["blending"].value,
+      blendingMode: halftonePass.uniforms["blendingMode"].value,
+      disable: halftonePass.uniforms["disable"].value,
+    };
+  
+    const gui = new GUI();
+    gui
+      .add(controller, "shape", { Dot: 1, Ellipse: 2, Line: 3, Square: 4 })
+      .onChange(onGUIChange);
+    gui.add(controller, "radius", 1, 25).onChange(onGUIChange);
+    gui.add(controller, "rotateR", 0, 90).onChange(onGUIChange);
+    gui.add(controller, "rotateG", 0, 90).onChange(onGUIChange);
+    gui.add(controller, "rotateB", 0, 90).onChange(onGUIChange);
+    gui.add(controller, "scatter", 0, 1, 0.01).onChange(onGUIChange);
+    gui.add(controller, "greyscale").onChange(onGUIChange);
+    gui.add(controller, "blending", 0, 1, 0.01).onChange(onGUIChange);
+    gui
+      .add(controller, "blendingMode", {
+        Linear: 1,
+        Multiply: 2,
+        Add: 3,
+        Lighter: 4,
+        Darker: 5,
+      })
+      .onChange(onGUIChange);
+    gui.add(controller, "disable").onChange(onGUIChange);
+  
+  }
 
 
   function onGUIChange() {
