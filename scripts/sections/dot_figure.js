@@ -58,8 +58,8 @@ let mouse, center;
 
 export function startSwapLines() {
   init();
-  initGUI();
-  animate();
+  // initGUI();
+  // animate();
 }
 
 function init() {
@@ -98,10 +98,7 @@ function init() {
 
 
 
-  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    height = window.innerHeight * 0.7
-    width = window.innerWidth	 * 0.7
-    }
+  
   geometry.setAttribute("position", new THREE.BufferAttribute(vertices, 3));
   var zOffset = 200
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
@@ -146,7 +143,7 @@ function init() {
   window.addEventListener("resize", onWindowResize);
 }
 
-width
+
 function onWindowResize() {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();

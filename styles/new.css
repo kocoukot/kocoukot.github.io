@@ -831,11 +831,14 @@ body.initialized {
 }
 
 .steps__canvas-container {
-    width: 85%;
-    position: relative;
+    margin-top: 10%;
+
+    width: 100%;
+    height: 100%;
+    left: 24.px;
     overflow: hidden;
-    position: relative;
-    overflow: hidden
+    position: absolute;
+    z-index: -1;
 }
 
 .steps__canvas-container::before {
