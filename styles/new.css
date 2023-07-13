@@ -556,7 +556,7 @@ body.initialized {
 
 .scroll:hover .scroll__icon {
     transform: translate(-50%, -30%)
-}
+} 
 
 .scroll__icon {
     width: 1.5rem;
@@ -606,7 +606,9 @@ body.initialized {
     position: absolute;
     bottom: -5rem;
     right: 20rem;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
     transform: translateY(100%)
+    
 }
 
 @media screen and (max-width: 940px) {
@@ -622,7 +624,10 @@ body.initialized {
 .welcome__canvas-container {
     /* width: 700px;
     height: 700px; */
+    width: 100%;
+    /* background-color: #838383; */
     position: absolute;
+    
     z-index: -1;
     right: 0;
     top: 0;
@@ -641,20 +646,20 @@ body.initialized {
     bottom: 0;
     height: 10%;
     width: 100%;
-    box-shadow: 0 0 50px 80px #fff;
-    background-color: #fff;
+    /* box-shadow: 0 0 50px 80px #fff; */
+    /* background-color: #fff; */
     z-index: 2
 }
-
-@media screen and (max-width: 940px) {
+/* and (max-width: 940px) */
+@media screen  {
     .welcome__canvas-container {
         top: initial;
         right: initial;
-        left: 50%;
+        /* left: 50%; */
         bottom: 0;
         width: 38rem;
         height: 38rem;
-        transform: translate(-50%, 0)
+        /* transform: translate(-50%, 0) */
     }
 }
 

@@ -57,6 +57,7 @@ let geometry, mesh, material;
 let mouse, center;
 export function startSwapLines() {
   init();
+  initGUI()
   animate();
 }
 
@@ -69,7 +70,7 @@ function init() {
     1,
     10000
   );
-  camera.position.set(0, 0, 500);
+  camera.position.set(1000, 500, 500);
 
   scene = new THREE.Scene();
   center = new THREE.Vector3();
@@ -83,7 +84,7 @@ function init() {
   const width = 640,
     height = 480;
   const nearClipping = 500,
-    farClipping = 3500;
+    farClipping = 1500;
 
   geometry = new THREE.BufferGeometry();
 
@@ -117,16 +118,7 @@ function init() {
   mesh = new THREE.Points(geometry, material);
   scene.add(mesh);
 
-  const gui = new GUI();
-  gui
-    .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
-    .name("nearClipping");
-  gui
-    .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
-    .name("farClipping");
-  gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
-  gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
-
+ 
     video.play();
 
 
@@ -170,4 +162,17 @@ function render() {
   camera.lookAt(center);
 
   renderer.render(scene, camera);
+}
+
+function initGUI(){
+	const gui = new GUI();
+	gui
+	  .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
+	  .name("nearClipping");
+	gui
+	  .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
+	  .name("farClipping");
+	gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
+	gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
+  
 }
