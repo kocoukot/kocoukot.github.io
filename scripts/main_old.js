@@ -267,9 +267,6 @@
           "data:application/font-woff;charset=utf-8;base64, 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";
       },
     },
-
-
-
     t = {};
   function n(i) {
     var r = t[i];
@@ -436,7 +433,6 @@
               }),
             s
           );
-
           function o(s) {
             return function (o) {
               return (function (s) {
@@ -7208,7 +7204,6 @@
         hn = new X(),
         dn = new xe(),
         pn = new xe();
-
       class fn extends bt {
         constructor(e = new Zt(), t = new Ft()) {
           super(),
@@ -7344,8 +7339,6 @@
                   s && ((s.faceIndex = Math.floor(n / 3)), t.push(s));
         }
       }
-
-
       function mn(e, t, n, i, r, s, a, o, l, c, u, h) {
         Qt.fromBufferAttribute(r, c),
           en.fromBufferAttribute(r, u),
@@ -15275,7 +15268,6 @@
           },
         };
       }
-      
       function hs(e = {}) {
         this.isWebGLRenderer = !0;
         const t =
@@ -17356,8 +17348,6 @@
           );
         }
       }
-
-      
       const Is = new RegExp("[\\[\\]\\.:\\/]", "g"),
         Fs = "[^\\[\\]\\.:\\/]",
         Os = "[^" + "\\[\\]\\.:\\/".replace("\\.", "") + "]",
@@ -17370,8 +17360,6 @@
             "$"
         ),
         zs = ["material", "materials", "bones"];
-
-
       class Bs {
         constructor(e, t, n) {
           (this.path = t),
@@ -17811,7 +17799,6 @@
           },
         };
       })();
-
       Zs.start();
       const $s = Zs;
 
@@ -17850,10 +17837,6 @@
           }),
         aims_list = ["штуки", "работающие решения", "ценности"];
 
-
-
-
-
       const ea = (function (e) {
         function t(t) {
           var canvas = e.call(this, t) || this;
@@ -17869,7 +17852,7 @@
             )),
             canvas.processCanvas();
 
-
+            
           var r = canvas.root.querySelector(".".concat("js-typing"));
           return (
             r &&
@@ -17894,7 +17877,6 @@
               !this.typingController.getIsPrinting()
             );
           }),
-
           (t.prototype.processCanvas = function () {
             var e = this;
             if (this.canvasContainer) {
@@ -17907,9 +17889,8 @@
               var n = new ds(),
                 i = new wn();
               n.add(i);
-              var r = 0
-
-            let swiming_shape = new fn(
+              var r = 0,
+                swiming_shape = new fn(
                   new ps(1, 50, 50),
                   new yn({
                     vertexShader:
@@ -17919,9 +17900,7 @@
                     uniforms: { time: { value: r } },
                   })
                 );
-
-              swiming_shape.position.set(0, 0, -5)
-              n.add(swiming_shape);
+              swiming_shape.position.set(0, 0, -5), n.add(swiming_shape);
               var a = function () {
                 var n, r;
                 (t.domElement.style.display = "none"),
@@ -17952,7 +17931,6 @@
                 });
             }
           }),
-
           (t.prototype.startSwapLines = function () {
             var e, t, n, i, r;
             return (
@@ -21833,6 +21811,39 @@
         Qa()(uo.Z, ho),
         uo.Z && uo.Z.locals && uo.Z.locals;
 
+      var po = (function () {
+        var e = function (t, n) {
+          return (
+            (e =
+              Object.setPrototypeOf ||
+              ({ __proto__: [] } instanceof Array &&
+                function (e, t) {
+                  e.__proto__ = t;
+                }) ||
+              function (e, t) {
+                for (var n in t)
+                  Object.prototype.hasOwnProperty.call(t, n) && (e[n] = t[n]);
+              }),
+            e(t, n)
+          );
+        };
+        return function (t, n) {
+          if ("function" != typeof n && null !== n)
+            throw new TypeError(
+              "Class extends value " +
+                String(n) +
+                " is not a constructor or null"
+            );
+          function i() {
+            this.constructor = t;
+          }
+          e(t, n),
+            (t.prototype =
+              null === n
+                ? Object.create(n)
+                : ((i.prototype = n.prototype), new i()));
+        };
+      })();
 
       Ka.use([
         function (e) {
@@ -21978,9 +21989,83 @@
         },
       ]);
 
-    
+      const our_pr_sec = (function (e) {
+        function t(t) {
+          var n = e.call(this, t) || this,
+            i = document.querySelector(".".concat("inwork"));
+          if (!i) throw new Error("Cant initialize Inwork Screen");
+          return (n.root = i), n.initializeSlider(), n;
+        }
 
+        return (
+          po(t, e),
+          (t.prototype.isCanBeChanged = function (e) {
+            return !0;
+          }),
+          (t.prototype.initializeSlider = function () {
+            new Ka(".".concat("inwork__slider"), {
+              autoplay: { delay: 2e3 },
+              loop: !0,
+              observer: !0,
+              speed: 1e3,
+              breakpoints: {
+                940: { slidesPerView: 2, spaceBetween: 100 },
+                0: { slidesPerView: 1, spaceBetween: 60 },
+              },
+            });
+          }),
+          t
+        );
+      })(t);
 
+      var mo = (function () {
+        var e = function (t, n) {
+          return (
+            (e =
+              Object.setPrototypeOf ||
+              ({ __proto__: [] } instanceof Array &&
+                function (e, t) {
+                  e.__proto__ = t;
+                }) ||
+              function (e, t) {
+                for (var n in t)
+                  Object.prototype.hasOwnProperty.call(t, n) && (e[n] = t[n]);
+              }),
+            e(t, n)
+          );
+        };
+        return function (t, n) {
+          if ("function" != typeof n && null !== n)
+            throw new TypeError(
+              "Class extends value " +
+                String(n) +
+                " is not a constructor or null"
+            );
+          function i() {
+            this.constructor = t;
+          }
+          e(t, n),
+            (t.prototype =
+              null === n
+                ? Object.create(n)
+                : ((i.prototype = n.prototype), new i()));
+        };
+      })();
+      const go = (function (e) {
+        function t(t) {
+          var n = e.call(this, t) || this,
+            i = document.querySelector(".".concat("clients"));
+          if (!i) throw new Error("Cant initialize Clients Screen");
+          return (n.root = i), n;
+        }
+        return (
+          mo(t, e),
+          (t.prototype.isCanBeChanged = function (e) {
+            return !0;
+          }),
+          t
+        );
+      })(t);
       function vo(e) {
         return (
           (vo =
@@ -21999,8 +22084,6 @@
           vo(e)
         );
       }
-
-
       function _o(e, t) {
         if (!(e instanceof t))
           throw new TypeError("Cannot call a class as a function");
@@ -25768,12 +25851,10 @@
             (El = !0), null == wl || wl.classList.add(yl);
           },
         });
-      
-        var wl,
+      var wl,
         Sl,
         Ml,
         El,
-
         Tl = (function () {
           var e = function (t, n) {
             return (
@@ -25808,6 +25889,145 @@
           };
         })();
 
+      const Al = (function (e) {
+        function t(t) {
+          var n = e.call(this, t) || this;
+          (n.finish = !1), (n.lastTouch = null), (n.canBeShowed = !0);
+          var i = document.querySelector(".".concat("create"));
+          if (!i) throw new Error("Cant initialize Create Screen");
+          n.root = i;
+          var r = document.querySelector(".".concat("create__circle"));
+          if (!r) throw new Error("Cant initialize Dot");
+          n.point = r;
+          var s = document.querySelector(".".concat("create__transition"));
+          if (!s) throw new Error("Cant initialize transition");
+          n.transition = s;
+          var a = n.transition.querySelector(".create__transition-button");
+          if (!a) throw new Error("Cant initialize transition button");
+          return (
+            (n.transitionButton = a),
+            n.handlePoint(),
+            n.handleLastScroll(),
+            (n.formController = new xl()),
+            n.addListeners(),
+            n
+          );
+        }
+
+        return (
+          Tl(t, e),
+          (t.prototype.show = function () {
+            e.prototype.show.call(this), this.point.classList.add("visible");
+          }),
+          (t.prototype.hide = function () {
+            e.prototype.hide.call(this), this.point.classList.remove("visible");
+          }),
+          (t.prototype.isCanBeChanged = function (e) {
+            return !0;
+          }),
+          (t.prototype.addListeners = function () {
+            var e = this;
+            bl.onBtnClick(function () {
+              document.body.classList.contains("point-active") || e.showForm();
+            }),
+              this.root
+                .querySelectorAll(".".concat("create__item-btn"))
+                .forEach(function (t) {
+                  return t.addEventListener("click", function (t) {
+                    t.preventDefault(), e.showForm();
+                  });
+                }),
+              bl.onLogoClick(function () {
+                e.hideForm();
+              });
+          }),
+          (t.prototype.handlePoint = function () {
+            var e = this;
+            new IntersectionObserver(
+              function (t) {
+                t.forEach(function (t) {
+                  (e.finish = t.isIntersecting),
+                    e.point.classList.toggle("visible", t.isIntersecting);
+                });
+              },
+              { threshold: 0.8 }
+            ).observe(this.root),
+              this.transitionButton.addEventListener("click", function () {
+                document.body.classList.add("form-visible"),
+                  e.transitionButton.classList.add("full");
+              });
+          }),
+          (t.prototype.handleLastScroll = function () {
+            var e = this;
+            window.addEventListener("wheel", function (t) {
+              window.scrollY + window.innerHeight >=
+                document.body.scrollHeight &&
+                t.deltaY > 0 &&
+                e.showForm();
+            }),
+              window.addEventListener("touchstart", function (t) {
+                return (e.lastTouch = t.touches[0].clientY);
+              }),
+              window.addEventListener("touchmove", function (t) {
+                var n = e.lastTouch - t.touches[0].clientY;
+                window.scrollY + window.innerHeight >=
+                  document.body.scrollHeight &&
+                  n > 0 &&
+                  e.showForm();
+              });
+          }),
+          (t.prototype.showForm = function () {
+            var e = this;
+            if (this.canBeShowed) {
+              bl.forceSmall();
+              var t = window.innerWidth > 940 ? 2e3 : 0;
+              this.point.classList.add("visible"),
+                document.body.classList.add("point-active"),
+                this.point.classList.add("moved"),
+                setTimeout(
+                  function () {
+                    e.transitionButton.classList.add("partial-visible"),
+                      setTimeout(function () {
+                        e.transitionButton.classList.add("moved");
+                      }, 1e3);
+                  },
+                  t ? 1500 : 0
+                ),
+                setTimeout(function () {
+                  e.point.classList.add("full"),
+                    e.transition.classList.add("visible");
+                }, t),
+                setTimeout(function () {
+                  e.transitionButton.classList.add("text-visible");
+                }, t + 500);
+            }
+          }),
+          (t.prototype.hideForm = function () {
+            var e = this;
+            (this.canBeShowed = !1),
+              document.body.classList.add("form-hide"),
+              setTimeout(function () {
+                document.body.classList.remove("point-active"),
+                  document.body.classList.remove("form-visible"),
+                  document.body.classList.remove("point-active"),
+                  e.point.classList.remove("visible"),
+                  e.point.classList.remove("moved"),
+                  e.transitionButton.classList.remove("text-visible"),
+                  e.point.classList.remove("full"),
+                  e.transition.classList.remove("visible"),
+                  e.transitionButton.classList.remove("moved"),
+                  e.transitionButton.classList.remove("full"),
+                  e.transitionButton.classList.remove("partial-visible"),
+                  setTimeout(function () {
+                    document.body.classList.remove("form-hide"),
+                      (e.canBeShowed = !0);
+                  }, 500);
+              }, 1e3);
+          }),
+          t
+        );
+      })(t);
+
       var Cl = (function () {
           function e() {
             var e = document.querySelector(".scroll");
@@ -25827,12 +26047,21 @@
             e
           );
         })(),
-
         Ll = location.hash,
         Pl = [
           { current: "" === Ll || "#welcome" === Ll, screen: ea },
-          { current: "#steps" === Ll, screen: ia }
+          { current: "#steps" === Ll, screen: ia },
+          { current: "#inwork" === Ll, screen: our_pr_sec },
+          { current: "#clients" === Ll, screen: go },
+          { current: "#create" === Ll, screen: Al },
         ];
+
+      window.onload = function () {
+        document.body.classList.add("initialized"), new e(Pl);
+        new Cl();
+        bl.onLogoClick(function () {
+          window.scroll({ top: 0, behavior: "smooth" });
+        });
+      };
     })();
 })();
-

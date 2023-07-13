@@ -16,11 +16,11 @@ function calculateCurrentStep() {
     ((window.scrollY - window.innerHeight / 2) /
       (sec_doc.root.offsetTop + sec_doc.root.clientHeight)) *
     3;
-  console.log("y_coord before" + y_coord);
+  // console.log("y_coord before" + y_coord);
 
   y_coord = Math.min(1, y_coord);
   y_coord = Math.max(0, y_coord);
-  console.log("y_coord " + y_coord);
+  // console.log("y_coord " + y_coord);
   var section_index = Math.floor(y_coord * sec_doc.stepsList.length - 1);
   section_index = Math.min(sec_doc.stepsList.length - 1, section_index);
   return Math.max(0, section_index);

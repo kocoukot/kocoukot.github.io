@@ -620,8 +620,8 @@ body.initialized {
 }
 
 .welcome__canvas-container {
-    width: 700px;
-    height: 700px;
+    /* width: 700px;
+    height: 700px; */
     position: absolute;
     z-index: -1;
     right: 0;

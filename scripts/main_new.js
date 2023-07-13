@@ -1,12 +1,14 @@
 import welcome_section from "./sections/section_welcome.js";
 import { scroll_listener } from "./sections/section_our_steps.js";
 import our_projects_section from "./sections/section_our_projects.js";
+
 import {
   init_section,
   showForm,
   hideForm,
 } from "./sections/section_create_form.js";
 
+import {startSwapLines} from "./sections/dot_figure.js";
 window.addEventListener("scroll", scroll_listener);
 
 window.onload = () => {
@@ -38,7 +40,7 @@ window.onload = () => {
       void 0 === e ||
       e.scrollIntoView({ behavior: "smooth" });
   });
-
+  startSwapLines()
   our_projects_section();
   init_section();
   document.body.classList.add("initialized");
