@@ -55,6 +55,7 @@ var itemWidth = container.offsetWidth; //700
 
 init();
 animate();
+
 function init() {
   renderer = new THREE.WebGLRenderer({alpha:true});
   renderer.setPixelRatio(window.devicePixelRatio);

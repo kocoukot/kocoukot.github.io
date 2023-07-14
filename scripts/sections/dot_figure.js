@@ -163,8 +163,8 @@ function onWindowResize() {
   itemWidth = container.offsetWidth;
   camera.aspect = itemWidth / itemHeight;
   camera.updateProjectionMatrix();
-  console.log("window height " + container.offsetHeight);
-  console.log("window width " + container.offsetWidth);
+  // console.log("window height " + container.offsetHeight);
+  // console.log("window width " + container.offsetWidth);
   renderer.setSize(itemWidth, itemHeight);
 }
 
@@ -181,8 +181,8 @@ function animate() {
 
 
 function render() {
-  console.log("x " + camera.position.x);
-  console.log("x " + mouse.x );
+  // console.log("x " + camera.position.x);
+  // console.log("x " + mouse.x );
   cameraX += (mouse.x - cameraX) * 0.005;
 
   if (cameraX < 0){
