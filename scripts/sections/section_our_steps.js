@@ -50,8 +50,8 @@ function changeCurrentStep(index) {
 }
 
 
-init();
-animate();
+// init();
+// animate();
 
 function init() {
   var container = document.querySelector(".steps__canvas-container")

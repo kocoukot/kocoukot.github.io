@@ -56,27 +56,32 @@ let scene, camera, renderer;
 let geometry, mesh, material;
 let mouse, center;
 
+const container = document.querySelector(".welcome__video-container");
+var itemHeight = container.offsetHeight//700
+var itemWidth = container.offsetWidth//700
+// var itemHeight = 700
+// var itemWidth = 700
+
 export function startSwapLines() {
   init();
-  // initGUI();
+
   animate();
 }
 
 function init() {
-  const container = document.querySelector(".welcome__canvas-container");
 
   camera = new THREE.PerspectiveCamera(
-    50,
-    window.innerWidth / window.innerHeight,
+    75,
+    itemWidth / itemHeight,
     1,
-    10000
+    2000
   );
-  camera.position.set(1000, 500, 500);
+  camera.position.set(150, 250, 1);
 
   scene = new THREE.Scene();
   center = new THREE.Vector3();
   center.z = -1000;
-  //   scene.background = new THREE.Color(0xffffff)
+    // scene.background = new THREE.Color(0x435635)
   const video = document.getElementById("video");
 
   const texture = new THREE.VideoTexture(video);
@@ -111,7 +116,7 @@ function init() {
       height: { value: height },
       nearClipping: { value: nearClipping },
       farClipping: { value: farClipping },
-      pointSize: { value: 2 },
+      pointSize: { value: 1 },
       zOffset: { value: 200 },
     },
     vertexShader: vShader,
@@ -124,36 +129,68 @@ function init() {
 
   mesh = new THREE.Points(geometry, material);
   scene.add(mesh);
-
+  // initGUI();
   video.play();
 
   renderer = new THREE.WebGLRenderer({ alpha: true });
   renderer.setPixelRatio(window.devicePixelRatio);
 
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(itemWidth, itemHeight);
   renderer.useLegacyLights = false;
   container.appendChild(renderer.domElement);
 
   mouse = new THREE.Vector3(0, 0, 1);
 
   document.addEventListener("mousemove", onDocumentMouseMove);
-
-  //
-
   window.addEventListener("resize", onWindowResize);
+
+
+
+function initGUI() {
+  const gui = new GUI();
+  gui
+    .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
+    .name("nearClipping");
+  gui
+    .add(camera.position , "x", 1, 10000, 1.0)
+    .name("x position");
+    gui
+    .add(camera.position , "y", 1, 10000, 1.0)
+    .name("y position");
+    gui
+    .add(camera.position , "z", 1, 10000, 1.0)
+    .name("z position");
+
+    gui
+    .add(center , "z", -10000, 10000, 1.0)
+    .name("z position");
+
+    
+
+  gui
+    .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
+    .name("farClipping");
+  // gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
+  gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
+}
+
+
 }
 
 
 function onWindowResize() {
-  camera.aspect = window.innerWidth / window.innerHeight;
+  itemHeight = container.offsetHeight
+  itemWidth = container.offsetWidth
+  camera.aspect = itemWidth / itemHeight;
   camera.updateProjectionMatrix();
-
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  console.log("window height " + container.offsetHeight)
+  console.log("window width " + container.offsetWidth)
+  renderer.setSize(itemWidth , itemHeight);
 }
 
 function onDocumentMouseMove(event) {
-  mouse.x = (event.clientX - window.innerWidth / 2) * 8;
-  mouse.y = (event.clientY - window.innerHeight / 2) * 8;
+  mouse.x = (event.clientX - itemWidth / 2) * 8;
+  mouse.y = (event.clientY - itemHeight / 2) * 8;
 }
 
 function animate() {
@@ -163,21 +200,10 @@ function animate() {
 }
 
 function render() {
-  camera.position.x += (mouse.x - camera.position.x) * 0.05;
-  camera.position.y += (-mouse.y - camera.position.y) * 0.05;
+  camera.position.x += (mouse.x - camera.position.x) * 0.0005;
+  camera.position.y += (+mouse.y + camera.position.y) * 0.0005;
   camera.lookAt(center);
 
   renderer.render(scene, camera);
 }
 
-function initGUI() {
-  const gui = new GUI();
-  gui
-    .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
-    .name("nearClipping");
-  gui
-    .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
-    .name("farClipping");
-  gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
-  gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
-}
