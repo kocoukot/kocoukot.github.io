@@ -49,22 +49,23 @@ function changeCurrentStep(index) {
   }, 0);
 }
 
+var container = document.querySelector(".steps_graphic-container")
+var itemHeight = container.offsetHeight; //700
+var itemWidth = container.offsetWidth; //700 
 
-// init();
-// animate();
-
+init();
+animate();
 function init() {
-  var container = document.querySelector(".steps__canvas-container")
   renderer = new THREE.WebGLRenderer({alpha:true});
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(window.innerWidth /2 , window.innerHeight*2/3);
+  renderer.setSize(itemWidth, itemHeight);
   renderer.useLegacyLights = false;
 
   clock = new THREE.Clock();
 
   camera = new THREE.PerspectiveCamera(
     45,
-    window.innerWidth / window.innerHeight,
+    itemWidth / itemHeight,
     1,
     150
   );
@@ -116,11 +117,11 @@ function init() {
     ].join("\n"),
   });
 
-  for (let i = 0; i < 15; ++i) {
+  for (let i = 0; i < 20; ++i) {
     // fill scene with coloured cubes
     const mesh = new THREE.Mesh(new THREE.BoxGeometry(2, 2, 2), mat);
     mesh.position.set(
-      Math.random() * 18 - 8,
+      Math.random() * 20 - 8,
       Math.random() * 18 - 8,
       Math.random() * 18 - 8
     );
@@ -150,8 +151,8 @@ function init() {
     disable: false,
   };
   const halftonePass = new HalftonePass(
-    window.innerWidth,
-    window.innerHeight,
+    itemWidth,
+    itemHeight,
     params
   );
   composer.addPass(renderPass);
@@ -159,9 +160,11 @@ function init() {
 
   window.onresize = function () {
     // resize composer
-    renderer.setSize(window.innerWidth*2/3, window.innerHeight*2/3);
-    composer.setSize(window.innerWidth, window.innerHeight);
-    camera.aspect = window.innerWidth / window.innerHeight;
+    itemHeight = container.offsetHeight;
+    itemWidth = container.offsetWidth;
+    renderer.setSize(itemWidth, itemHeight);
+    composer.setSize(itemWidth, itemHeight);
+    camera.aspect = itemWidth / itemHeight;
     camera.updateProjectionMatrix();
   };
 

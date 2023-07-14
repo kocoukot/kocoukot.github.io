@@ -192,14 +192,7 @@ function render() {
   } else {
     camera.position.x = cameraX
   }
-  //   camera.position.x < 402.3770685702037 ||
-  //   mouse.x < (window.innerWidth * 2) / 3 ||
-  //   camera.position.x > 0
-  // ) {
-  //   camera.position.x += (mouse.x - camera.position.x) * 0.003;
-  // }
 
-  // if ((camera.position.y <= 550 || mouse.y < (window.innerHeight*2/3))|| (camera.position.y >  -300 ||  mouse.y > window.innerHeight/3)){
   cameraY += (-mouse.y + cameraY) * 0.005;
   if (cameraY < 0) {
     camera.position.y = 0;
