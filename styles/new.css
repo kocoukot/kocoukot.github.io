@@ -674,8 +674,8 @@ body.initialized {
 
 @media screen and (max-width: 520px) {
     .welcome__video-container {
-    width: 25m;
-    height: 25em;
+    width: 40m;
+    height: 40em;
     position: relative;
     top: 0;
     /* right: 0; */
