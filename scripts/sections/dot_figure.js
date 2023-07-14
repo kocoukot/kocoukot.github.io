@@ -57,31 +57,25 @@ let geometry, mesh, material;
 let mouse, center;
 
 const container = document.querySelector(".welcome__video-container");
-var itemHeight = container.offsetHeight//700
-var itemWidth = container.offsetWidth//700
+var itemHeight = container.offsetHeight; //700
+var itemWidth = container.offsetWidth; //700
 // var itemHeight = 700
 // var itemWidth = 700
-
+var cameraY = 250
+var cameraX = 150
 export function startSwapLines() {
   init();
-
   animate();
 }
 
 function init() {
-
-  camera = new THREE.PerspectiveCamera(
-    75,
-    itemWidth / itemHeight,
-    1,
-    2000
-  );
-  camera.position.set(150, 250, 1);
+  camera = new THREE.PerspectiveCamera(75, itemWidth / itemHeight, 1, 2000);
+  camera.position.set(cameraX, cameraY, 1);
 
   scene = new THREE.Scene();
   center = new THREE.Vector3();
   center.z = -1000;
-    // scene.background = new THREE.Color(0x435635)
+  // scene.background = new THREE.Color(0x435635)
   const video = document.getElementById("video");
 
   const texture = new THREE.VideoTexture(video);
@@ -101,13 +95,14 @@ function init() {
     vertices[i + 1] = Math.floor(j / width);
   }
 
-
-
-  
   geometry.setAttribute("position", new THREE.BufferAttribute(vertices, 3));
-  var zOffset = 200
-  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-	  zOffset = 20
+  var zOffset = 200;
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    zOffset = 20;
   }
   material = new THREE.ShaderMaterial({
     uniforms: {
@@ -144,53 +139,38 @@ function init() {
   document.addEventListener("mousemove", onDocumentMouseMove);
   window.addEventListener("resize", onWindowResize);
 
-
-
-function initGUI() {
-  const gui = new GUI();
-  gui
-    .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
-    .name("nearClipping");
-  gui
-    .add(camera.position , "x", 1, 10000, 1.0)
-    .name("x position");
+  function initGUI() {
+    const gui = new GUI();
     gui
-    .add(camera.position , "y", 1, 10000, 1.0)
-    .name("y position");
-    gui
-    .add(camera.position , "z", 1, 10000, 1.0)
-    .name("z position");
+      .add(material.uniforms.nearClipping, "value", 1, 10000, 1.0)
+      .name("nearClipping");
+    gui.add(camera.position, "x", 1, 10000, 1.0).name("x position");
+    gui.add(camera.position, "y", 1, 10000, 1.0).name("y position");
+    gui.add(camera.position, "z", 1, 10000, 1.0).name("z position");
+
+    gui.add(center, "z", -10000, 10000, 1.0).name("z position");
 
     gui
-    .add(center , "z", -10000, 10000, 1.0)
-    .name("z position");
-
-    
-
-  gui
-    .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
-    .name("farClipping");
-  // gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
-  gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
+      .add(material.uniforms.farClipping, "value", 1, 10000, 1.0)
+      .name("farClipping");
+    // gui.add(material.uniforms.pointSize, "value", 1, 10, 1.0).name("pointSize");
+    gui.add(material.uniforms.zOffset, "value", 0, 4000, 1.0).name("zOffset");
+  }
 }
-
-
-}
-
 
 function onWindowResize() {
-  itemHeight = container.offsetHeight
-  itemWidth = container.offsetWidth
+  itemHeight = container.offsetHeight;
+  itemWidth = container.offsetWidth;
   camera.aspect = itemWidth / itemHeight;
   camera.updateProjectionMatrix();
-  console.log("window height " + container.offsetHeight)
-  console.log("window width " + container.offsetWidth)
-  renderer.setSize(itemWidth , itemHeight);
+  console.log("window height " + container.offsetHeight);
+  console.log("window width " + container.offsetWidth);
+  renderer.setSize(itemWidth, itemHeight);
 }
 
 function onDocumentMouseMove(event) {
-  mouse.x = (event.clientX - itemWidth / 2) * 8;
-  mouse.y = (event.clientY - itemHeight / 2) * 8;
+  mouse.x = (event.clientX - itemWidth ) * 2;
+  mouse.y = (event.clientY - itemHeight / 2) * 10;
 }
 
 function animate() {
@@ -199,11 +179,37 @@ function animate() {
   render();
 }
 
-function render() {
-  camera.position.x += (mouse.x - camera.position.x) * 0.0005;
-  camera.position.y += (+mouse.y + camera.position.y) * 0.0005;
-  camera.lookAt(center);
 
+function render() {
+  console.log("x " + camera.position.x);
+  console.log("x " + mouse.x );
+  cameraX += (mouse.x - cameraX) * 0.005;
+
+  if (cameraX < 0){
+    camera.position.x = 0
+  } else if (cameraX > 400){
+    camera.position.x = 400
+  } else {
+    camera.position.x = cameraX
+  }
+  //   camera.position.x < 402.3770685702037 ||
+  //   mouse.x < (window.innerWidth * 2) / 3 ||
+  //   camera.position.x > 0
+  // ) {
+  //   camera.position.x += (mouse.x - camera.position.x) * 0.003;
+  // }
+
+  // if ((camera.position.y <= 550 || mouse.y < (window.innerHeight*2/3))|| (camera.position.y >  -300 ||  mouse.y > window.innerHeight/3)){
+  cameraY += (-mouse.y + cameraY) * 0.005;
+  if (cameraY < 0) {
+    camera.position.y = 0;
+  } else if (cameraY > 550) {
+    camera.position.y = 550;
+  } else{
+    camera.position.y =cameraY
+    
+  }
+
+  camera.lookAt(center);
   renderer.render(scene, camera);
 }
-

@@ -668,21 +668,20 @@ body.initialized {
     top: 0;
     right: 0;
     float: right;
-        transform: translate(-50%, 0)
-    }
-}
-
-@media screen and (max-width: 796px) {
-    .welcome__video-container {
-    width: 55m;
-    height: 55em;
-    position: relative;
-    top: 0;
-    /* right: 0; */
-    /* float: right; */
         /* transform: translate(-50%, 0) */
     }
 }
+
+@media screen and (max-width: 700px) {
+    .welcome__video-container {
+    width: 25em;
+    height: 25em;
+    position: relative;
+    top: 0;
+    right: 0; 
+    float: right;
+    }
+}  
 
 
 .welcome__canvas-container::before {
