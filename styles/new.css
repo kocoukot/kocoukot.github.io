@@ -672,10 +672,10 @@ body.initialized {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 796px) {
     .welcome__video-container {
-    width: 40m;
-    height: 40em;
+    width: 55m;
+    height: 55em;
     position: relative;
     top: 0;
     /* right: 0; */
