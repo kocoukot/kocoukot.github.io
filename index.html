@@ -12,13 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"
+    ></script>
 
-    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
     <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script type="importmap">
       {
@@ -28,7 +32,6 @@
         }
       }
     </script>
-
   </head>
   <body>
     <div class="loader"></div>
@@ -58,42 +61,37 @@
           ВегаПромПроект – IT-компания полного цикла, понимающая заказчика и
           специализирующаяся на разработке ПО, решающего проблему
         </article>
-        
-      
-
       </div>
       <div class="welcome__canvas-container">
         <div class="welcome__video-container"></div>
-        <video id="video" loop muted crossOrigin="anonymous" playsinline style="display:none">
-          <source src="./assets/textures/kinect.webm">
-          <source src="./assets/textures/kinect.mp4">
+        <video
+          id="video"
+          loop
+          muted
+          crossorigin="anonymous"
+          playsinline
+          style="display: none"
+        >
+          <source src="./assets/textures/kinect.webm" />
+          <source src="./assets/textures/kinect.mp4" />
         </video>
-    
       </div>
-
     </section>
 
     <section class="screen steps" id="steps">
-      
       <div class="screen__body">
         <div class="container steps__body">
-          
           <div class="steps__canvas-container">
-            <div class="steps_graphic-container">
-            </div>
+            <div class="steps_graphic-container"></div>
           </div>
           <div class="steps__left">
             <h2 class="steps__header">
               <span class="h__span thin">этапы</span
               ><span class="h__span">работы</span>
             </h2>
-            
           </div>
-          
-          <div class="steps__right">
 
-           
-            
+          <div class="steps__right">
             <ul class="steps__list">
               <li class="steps__item current">
                 <h3 class="steps__item-header">Предпроект</h3>
@@ -599,14 +597,8 @@
       </svg>
     </button>
 
-    <script
-      type="module"
-      src="/scripts/sections/section_welcome.js"
-    ></script>
-    <script
-      type="module"
-      src="/scripts/sections/section_our_steps.js"
-    ></script>
+    <script type="module" src="/scripts/sections/section_welcome.js"></script>
+    <script type="module" src="/scripts/sections/section_our_steps.js"></script>
     <script
       type="module"
       src="/scripts/sections/section_create_form.js"
@@ -615,18 +607,11 @@
       type="module"
       src="/scripts/sections/section_our_projects.js"
     ></script>
-   
 
-    <script
-    type="module"
-    src="/scripts/sections/dot_figure.js"
-  ></script>
-
+    <script type="module" src="/scripts/sections/dot_figure.js"></script>
 
     <script type="module" src="/scripts/main_new.js"></script>
     <script type="module" src="/scripts/ext/inputmask.min.js"></script>
-		
-    <!-- <script src="/scripts/main.js"></script> -->
 
     <!-- Yandex.Metrika counter -->
     <!-- <script type="text/javascript" >
