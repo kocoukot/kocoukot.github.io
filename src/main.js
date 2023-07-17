@@ -1,14 +1,14 @@
-import welcome_section from "./sections/section_welcome.js";
-import { scroll_listener } from "./sections/section_our_steps.js";
-import our_projects_section from "./sections/section_our_projects.js";
+import welcome_section from "./section_welcome.js";
+import { scroll_listener } from "./section_our_steps.js";
+import our_projects_section from "./section_our_projects.js";
 
 import {
   init_section,
   showForm,
   hideForm,
-} from "./sections/section_create_form.js";
+} from "./section_create_form.js";
 
-import {startSwapLines} from "./sections/dot_figure.js";
+import {startSwapLines} from "./dot_figure.js";
 window.addEventListener("scroll", scroll_listener);
 
 window.onload = () => {

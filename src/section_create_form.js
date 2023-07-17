@@ -1,3 +1,5 @@
+import Inputmask from "inputmask";
+
 let creat_btn = document.querySelectorAll(".create__item-btn");
 
 export function init_section() {

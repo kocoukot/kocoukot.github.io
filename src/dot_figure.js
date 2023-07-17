@@ -129,8 +129,11 @@ function init() {
 
   renderer = new THREE.WebGLRenderer({ alpha: true });
   renderer.setPixelRatio(window.devicePixelRatio);
-
-  renderer.setSize(itemWidth, itemHeight);
+  renderer.debug.checkShaderErrors = true;
+  renderer.debug.enableExtensionsWarnings = true;
+  renderer.debug.enableSpector = true;
+  renderer.debug.enableSkeletons = true;
+    renderer.setSize(itemWidth, itemHeight);
   renderer.useLegacyLights = false;
   container.appendChild(renderer.domElement);
 
