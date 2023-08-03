@@ -33,8 +33,8 @@ window.onload = () => {
   });
 
   startSwapLines()
-  
   our_projects_section();
   init_section();
+  
   document.body.classList.add("initialized");
 };
