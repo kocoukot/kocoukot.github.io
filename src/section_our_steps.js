@@ -53,8 +53,8 @@ var container = document.querySelector(".steps_graphic-container")
 var itemHeight = container.offsetHeight; //700
 var itemWidth = container.offsetWidth; //700 
 
-init();
-animate();
+// init();
+// animate();
 
 function init() {
   renderer = new THREE.WebGLRenderer({alpha:true});

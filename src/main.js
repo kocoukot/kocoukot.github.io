@@ -25,15 +25,6 @@ window.onload = () => {
   // console.log(Ll)
   welcome_section();
 
-  var sections_list = [
-    { current: "" === Ll || "#welcome" === Ll, screen: welcome_section },
-    // { current: "#steps" === Ll, screen: our_steps_section },
-    // { current: "#inwork" === Ll, screen: fo },
-    // { current: "#clients" === Ll, screen: go },
-    // { current: "#create" === Ll, screen: create_form },
-  ];
-  // new e(sections_list)
-
   document.querySelector(".scroll").addEventListener("click", () => {
     var e;
     null === (e = document.querySelector(".steps")) ||
