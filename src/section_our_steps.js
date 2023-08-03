@@ -57,7 +57,7 @@ var itemWidth = container.offsetWidth; //700
 
 export function initAnimation(){
   init();
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  if (/Android|webOS|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     composer.render();
   } else  {
     animate();
