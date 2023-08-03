@@ -1,5 +1,5 @@
 import welcome_section from "./section_welcome.js";
-import { scroll_listener } from "./section_our_steps.js";
+import { scroll_listener, initAnimation } from "./section_our_steps.js";
 import our_projects_section from "./section_our_projects.js";
 
 import {
@@ -31,7 +31,7 @@ window.onload = () => {
       void 0 === e ||
       e.scrollIntoView({ behavior: "smooth" });
   });
-
+  initAnimation()
   startSwapLines()
   our_projects_section();
   init_section();

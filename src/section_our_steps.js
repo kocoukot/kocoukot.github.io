@@ -54,8 +54,13 @@ var container = document.querySelector(".steps_graphic-container")
 var itemHeight = container.offsetHeight; //700
 var itemWidth = container.offsetWidth; //700 
 
-init();
-animate();
+
+export function initAnimation(){
+  init();
+  animate();
+}
+
+
 
 function init() {
   renderer = new THREE.WebGLRenderer({alpha:true});
@@ -160,6 +165,7 @@ function init() {
   composer.addPass(renderPass);
   composer.addPass(halftonePass);
 
+
   window.onresize = function () {
     // resize composer
     itemHeight = container.offsetHeight;
@@ -233,9 +239,13 @@ function init() {
 
 function animate() {
   requestAnimationFrame(animate);
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    composer.render(delta);
+  } else  {
+    const delta = clock.getDelta();
+    group.rotation.y += delta * rotationSpeed;
+    composer.render(delta);
+  }
 
-  const delta = clock.getDelta();
-  // stats.update();
-  group.rotation.y += delta * rotationSpeed;
-  composer.render(delta);
+  
 }
