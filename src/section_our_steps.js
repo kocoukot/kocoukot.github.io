@@ -16,10 +16,9 @@ sec_doc.canvasRoot = sec_doc.root.querySelector(
   ".".concat("steps__canvas-container")
 );
 sec_doc.currentStep = 0;
+
 // let renderer, clock, camera, stats;
-
 // const rotationSpeed = Math.PI / 64;
-
 // let composer, group;
 
 export function scroll_listener() {
