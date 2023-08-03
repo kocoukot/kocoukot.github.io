@@ -31,7 +31,9 @@ window.onload = () => {
       void 0 === e ||
       e.scrollIntoView({ behavior: "smooth" });
   });
+
   startSwapLines()
+  
   our_projects_section();
   init_section();
   document.body.classList.add("initialized");
