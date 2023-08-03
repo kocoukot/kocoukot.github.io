@@ -57,7 +57,11 @@ var itemWidth = container.offsetWidth; //700
 
 export function initAnimation(){
   init();
-  animate();
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    composer.render();
+  } else  {
+    animate();
+  }
 }
 
 
@@ -239,13 +243,7 @@ function init() {
 
 function animate() {
   requestAnimationFrame(animate);
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    composer.render(delta);
-  } else  {
-    const delta = clock.getDelta();
-    group.rotation.y += delta * rotationSpeed;
-    composer.render(delta);
-  }
-
-  
+  const delta = clock.getDelta();
+  group.rotation.y += delta * rotationSpeed;
+  composer.render(delta);
 }
