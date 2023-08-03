@@ -8,7 +8,7 @@ import {
   hideForm,
 } from "./section_create_form.js";
 
-// import {startSwapLines} from "./dot_figure.js";
+import {startSwapLines} from "./dot_figure.js";
 window.addEventListener("scroll", scroll_listener);
 
 window.onload = () => {
@@ -31,7 +31,7 @@ window.onload = () => {
       void 0 === e ||
       e.scrollIntoView({ behavior: "smooth" });
   });
-  // startSwapLines()
+  startSwapLines()
   our_projects_section();
   init_section();
   document.body.classList.add("initialized");

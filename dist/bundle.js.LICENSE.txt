@@ -5,3 +5,9 @@
  * Licensed under the MIT license
  * Version: 5.0.8
  */
+
+/**
+ * @license
+ * Copyright 2010-2023 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */

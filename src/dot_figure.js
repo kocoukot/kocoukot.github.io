@@ -64,8 +64,8 @@ var itemWidth = container.offsetWidth; //700
 var cameraY = 250
 var cameraX = 150
 export function startSwapLines() {
-  // init();
-  // animate();
+  init();
+  animate();
 }
 
 function init() {
