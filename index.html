@@ -1,57 +1,629 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Tests</title>
-</head>
-<body>
-  <h1>Tests</h1>
-  
-  <ul>
-    <li><a href="build_40_43/index.html">build_40_43</a></li>
-    <li><a href="build_40_43.zip">build_40_43.zip</a></li>
+<html lang="ru">
+  <head>
+    <title>Главная | Вегапромпроект</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link type="image/x-icon" rel="icon" href="/assets/images/favicon.svg" />
+    <link type="image/x-icon" rel="icon" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"
+    ></script>
 
-    <li><a href="build_75_78/index.html">build_75_78</a></li>
-    <li><a href="build_75_78.zip">build_75_78.zip</a></li>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
-    <li><a href="build_79_82/index.html">build_79_82</a></li>
-    <li><a href="build_79_82.zip">build_79_82.zip</a></li>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <li><a href="build_83_86/index.html">build_83_86</a></li>
-    <li><a href="build_83_86.zip">build_83_86.zip</a></li>
+  </head>
+  <body>
+    <div class="loader"></div>
+    <header class="header">
+      <div class="container header__body">
+        <div id="logo__icon" class="logo header__logo">
+          <svg class="logo__icon">
+            <use href="/assets/icons/sprite.svg#logo"></use>
+          </svg>
+        </div>
+        <div class="header__right">
+          <button class="btn back-border header__btn"></button>
+        </div>
+      </div>
+    </header>
 
-    <li><a href="build_92_97/index.html">build_92_97</a></li>
-    <li><a href="build_92_97.zip">build_92_97.zip</a></li>
-    
-    <li><a href="build_102_107/index.html">build_102_107</a></li>
-    <li><a href="build_102_107.zip">build_102_107.zip</a></li>
-    
-    <li><a href="build_132_135/index.html">build_132_135</a></li>
-    <li><a href="build_132_135.zip">build_132_135.zip</a></li>
+    <section class="screen first welcome" id="welcome">
+      <div class="screen__body container welcome__body">
+        <h1 class="h welcome__header">
+          <span class="h__span">мы создаём</span
+          ><span class="h__span thin cursor anim"
+            ><span class="js-typing"></span
+          ></span>
+        </h1>
 
-    <li><a href="build_player_digital/index.html">build_player_digital</a></li>
-    <li><a href="build_player_digital.zip">build_player_digital.zip</a></li>
-    
-    <li>___________</li>
+        <article class="welcome__subtitle">
+          ВегаПромПроект – IT-компания полного цикла, понимающая заказчика и
+          специализирующаяся на разработке ПО, решающего проблему
+        </article>
+      </div>
+      <div class="welcome__canvas-container">
+        <div class="welcome__video-container"></div>
+        <video
+          id="video"
+          loop
+          muted
+          crossorigin="anonymous"
+          playsinline
+          style="display: none"
+        >
+          <source src="./assets/textures/kinect.webm" />
+          <source src="./assets/textures/kinect.mp4" />
+        </video>
+      </div>
+    </section>
 
-   <li><a href="build_112/index.html">build_112 - trigger var - invoke_hide_detailed</a></li>
-    <li><a href="build_112.zip">build_112.zip</a></li>
-    
-    <li><a href="build_120/index.html">build_120 - trigger var - invoke_hide_detailed</a></li>
-    <li><a href="build_120.zip">build_120.zip</a></li>
-    
+    <section class="screen steps" id="steps">
+      <div class="screen__body">
+        <div class="container steps__body">
+          <div class="steps__canvas-container">
+            <div class="steps_graphic-container"></div>
+          </div>
+          <div class="steps__left">
+            <h2 class="steps__header">
+              <span class="h__span thin">этапы</span
+              ><span class="h__span">работы</span>
+            </h2>
+          </div>
 
-    <li>___________</li>
-    
-    <li><a href="build_player_oper/index.html">build_player_oper</a></li>
-    <li><a href="build_player_oper.zip">build_player_oper.zip</a></li>
+          <div class="steps__right">
+            <ul class="steps__list">
+              <li class="steps__item current">
+                <h3 class="steps__item-header">Предпроект</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">01</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Вы описываете задачу, как можете, а мы вас понимаем и
+                        превращаем ваши мысли в документ.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Наши аналитики трансформируют ваши планы в задачи и
+                        возможные решения проекта, определяют измеримые цели и
+                        диапазоны бюджетов.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="steps__item">
+                <h3 class="steps__item-header">Техническое Задание</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">02</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Мы добавляем в документ четкие технические описания
+                        результата и стоимости, объясняем Вам, что они значат.
+                        Вы просите уточнить вот тут и вот там.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Разрабатывается архитектура продукта, подбирается стек
+                        технологий, в т.ч. распределение между самописными
+                        решениями и внешними или внутренними сервисами,
+                        подбирается состав команд и цикл разработки.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="steps__item">
+                <h3 class="steps__item-header">Договор</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">03</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Мы отправляем вам готовый набор документов, заполненный
+                        по нашей или вашей форме. Ваши юристы вносят правки.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Наши специалисты создают полный комплект документов,
+                        регламентирующих прозрачное течение проекта: договор,
+                        техническое задание, график выполнения работ, график и
+                        форму предоставления отчетов, требования к
+                        предоставляемой информации и т.д.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="steps__item">
+                <h3 class="steps__item-header">Разработка</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">04</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Мы работаем по графику, каждую пятницу предоставляя вам
+                        отчёт о состоянии проекта.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Мы работаем по утверждённому Вами графику, каждую
+                        пятницу предоставляя отчёт о состоянии проекта. Наши
+                        специалисты постоянно на связи, готовые воспринять
+                        неожиданные изменения концепции и увязать их с реалиями
+                        проекта.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="steps__item">
+                <h3 class="steps__item-header">Тестирование</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">05</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Мы вместе с Вами просматриваем продукт на каждом этапе
+                        разработки, проверяем и корректируем функционал и
+                        дизайн.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Группа специалистов проводит тестирование на всех
+                        возможных уровнях от интерфейсов до функционального
+                        тестирования модулей ПО, нагрузочного тестирования и
+                        т.д. Отчеты о тестировании хранятся в документации, и с
+                        ними можно ознакомиться в любой момент.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="steps__item">
+                <h3 class="steps__item-header">Передача проекта</h3>
+                <div class="steps__item-body">
+                  <div class="steps__item-number">06</div>
+                  <div class="steps__item-info">
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">Как это выглядит:</h4>
+                      <div class="steps__question-content">
+                        Мы передаём вам все доступы и исходный код, размещаем
+                        продукт на боевом сервере. Обучаем ваших специалистов.
+                        Вы начинаете использовать продукт.
+                      </div>
+                    </div>
+                    <div class="steps__item-question">
+                      <h4 class="steps__question-h">
+                        Что происходит на самом деле:
+                      </h4>
+                      <div class="steps__question-content">
+                        Наши специалисты разрабатывают учебные материалы и
+                        справочники по использованию ПО. Создаются резервные
+                        копии продукта. Вы получаете полный доступ к продукту и
+                        консультирующего специалиста техподдержки,
+                        консультирующего Вас.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <li>___________</li>
-    
-    <li><a href="build_player_atom/index.html">build_player_atom</a></li>
-    <li><a href="build_player_atom.zip">build_player_atom.zip</a></li>
+    <!-- Our projects  -->
+    <section class="screen inwork" id="inwork">
+      <div class="screen__body">
+        <div class="tagged-top container">
+          <h2 class="tagged-top__header">
+            <span class="h__span thin">наши</span
+            ><span class="h__span">проекты</span>
+          </h2>
+          <div class="tagged-top__categories"></div>
+        </div>
+        <div class="inwork__slider">
+          <div class="swiper-wrapper">
+            <a
+              class="inwork__slide swiper-slide"
+              href="https://shkola-zdorov.ru/"
+              target="_blank"
+              ><img class="inwork__slide-img" src="/assets/images/HS.jpg" /></a
+            ><a
+              class="inwork__slide swiper-slide"
+              href="https://play.google.com/store/apps/details?id=com.GlumCompany.Museum&amp;hl=ru&amp;gl=US"
+              target="_blank"
+              ><img class="inwork__slide-img" src="/assets/images/TK.jpg" /></a
+            ><a
+              class="inwork__slide swiper-slide"
+              href="https://play.google.com/store/apps/details?id=ru.samarabeer.zhigulevskyexpress&amp;hl=ru&amp;gl=US"
+              target="_blank"
+              ><img
+                class="inwork__slide-img"
+                src="/assets/images/Zhiga.jpg" /></a
+            ><a class="inwork__slide swiper-slide"
+              ><img class="inwork__slide-img" src="/assets/images/ZLK.jpg" /></a
+            ><a class="inwork__slide swiper-slide"
+              ><img class="inwork__slide-img" src="/assets/images/Bioton-6.jpg"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <li>___________</li>
-    <li><a href="vega/index.html">vega proect</a></li>
-  </ul>
-</body>
+    <!-- Our clients  -->
+    <section class="screen clients" id="clients">
+      <div class="screen__body">
+        <div class="tagged-top container">
+          <h2 class="tagged-top__header">
+            <span class="h__span thin">наши</span
+            ><span class="h__span">партнёры</span>
+          </h2>
+          <div class="tagged-top__categories">
+            <!--<div class="btn black small tagged-top__category">Все проекты</div>
+            <div class="btn thin small tagged-top__category">Разработка</div>
+            <div class="btn thin small tagged-top__category">Дизайн</div>
+            <div class="btn thin small tagged-top__category">Пром. решения</div>
+            <div class="btn thin small tagged-top__category">AR</div>-->
+          </div>
+        </div>
+        <div class="clients__list">
+          <a
+            class="clients__list-client"
+            href="https://www.tyazhmash.com"
+            target="_blank"
+            ><img
+              class="clients__list-img"
+              src="/assets/images/client1.png" /></a
+          ><a
+            class="clients__list-client"
+            href="https://www.tatneft.ru"
+            target="_blank"
+            ><img
+              class="clients__list-img"
+              src="/assets/images/client2.png" /></a
+          ><a
+            class="clients__list-client"
+            href="https://www.rosneft.ru"
+            target="_blank"
+            ><img
+              class="clients__list-img"
+              src="/assets/images/client3.png" /></a
+          ><a
+            class="clients__list-client"
+            href="https://samarabeer.ru"
+            target="_blank"
+            ><img
+              class="clients__list-img"
+              src="/assets/images/client4.png" /></a
+          ><a
+            class="clients__list-client"
+            href="https://www.dekor-bor.ru"
+            target="_blank"
+            ><img
+              class="clients__list-img"
+              src="/assets/images/client5.png" /></a
+          ><a
+            class="clients__list-client"
+            href="https://www.dostavka.info"
+            target="_blank"
+            ><img class="clients__list-img" src="/assets/images/client6.png"
+          /></a>
+          <div
+            class="clients__list-client"
+            target="_blank"
+            ><img class="clients__list-img" src="/assets/images/client7.png"
+          /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen materials">
+      <div class="screen__body container">
+        <h2 class="materials__header">
+          <span class="h__span thin">полезные</span
+          ><span class="h__span">материалы</span>
+        </h2>
+        <ul class="materials__list">
+          <li class="materials__item">
+            <div class="materials__item-left">
+              <h3 class="materials__item-header">Разделение спиртов</h3>
+              <h4 class="materials__item-subtitle">
+                Решения для промышленности
+              </h4>
+            </div>
+            <div class="materials__item-right">
+              <a
+                class="btn high w160 thin materials__item-btn"
+                href="/assets/docs/spirits.pdf"
+                download
+                >Посмотреть</a
+              >
+            </div>
+          </li>
+          <li class="materials__item">
+            <div class="materials__item-left">
+              <h3 class="materials__item-header">Мобильные приложения</h3>
+              <h4 class="materials__item-subtitle">
+                Универсальный инструмент связи с потребителем
+              </h4>
+            </div>
+            <div class="materials__item-right">
+              <a
+                class="btn high w160 thin materials__item-btn"
+                href="/assets/docs/mobile.pdf"
+                download
+                >Посмотреть</a
+              >
+            </div>
+          </li>
+          <li class="materials__item">
+            <div class="materials__item-left">
+              <h3 class="materials__item-header">AR / VR музеи</h3>
+              <h4 class="materials__item-subtitle">
+                Виртуальная и дополненная реальность
+              </h4>
+            </div>
+            <div class="materials__item-right">
+              <a
+                class="btn high w160 thin materials__item-btn"
+                href="/assets/docs/armuseum.pdf"
+                download
+                >Посмотреть</a
+              >
+            </div>
+          </li>
+          <li class="materials__item">
+            <div class="materials__item-left">
+              <h3 class="materials__item-header">
+                AR-решения для промышленности
+              </h3>
+              <h4 class="materials__item-subtitle">
+                AR-решения для промышленных предприятий
+              </h4>
+            </div>
+            <div class="materials__item-right">
+              <a
+                class="btn high w160 thin materials__item-btn"
+                href="/assets/docs/ardev.pdf"
+                download
+                >Посмотреть</a
+              >
+            </div>
+          </li>
+          <li class="materials__item">
+            <div class="materials__item-left">
+              <h3 class="materials__item-header">Геймификация проектов</h3>
+              <h4 class="materials__item-subtitle">
+                Технология увеличения продаж
+              </h4>
+            </div>
+            <div class="materials__item-right">
+              <a
+                class="btn high w160 thin materials__item-btn"
+                href="/assets/docs/game.pdf"
+                download
+                >Посмотреть</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section class="screen create" id="create">
+      <div class="screen__body container">
+        <h2 class="create__header">
+          <span class="h__span thin">мы</span
+          ><span class="h__span">создаем</span>
+        </h2>
+        <ul class="create__list">
+          <li class="create__item">
+            <div class="create__item-left">
+              <h3 class="create__item-header">Web-решения под ключ</h3>
+              <h4 class="create__item-subtitle">
+                сайты, мобильные приложения и web-интерфейсы
+              </h4>
+            </div>
+            <div class="create__item-right">
+              <a class="btn high w160 thin create__item-btn">Узнать</a>
+            </div>
+          </li>
+          <li class="create__item">
+            <div class="create__item-left">
+              <h3 class="create__item-header">Серверные решения</h3>
+              <h4 class="create__item-subtitle">
+                сервера, базы данных, шлюзы подключения
+              </h4>
+            </div>
+            <div class="create__item-right">
+              <a class="btn high w160 thin create__item-btn">Узнать</a>
+            </div>
+          </li>
+          <li class="create__item">
+            <div class="create__item-left">
+              <h3 class="create__item-header">ERP-стратегии</h3>
+              <h4 class="create__item-subtitle">
+                1С и Битрикс, самописные системы
+              </h4>
+            </div>
+            <div class="create__item-right">
+              <a class="btn high w160 thin create__item-btn">Узнать</a>
+            </div>
+          </li>
+          <li class="create__item">
+            <div class="create__item-left">
+              <h3 class="create__item-header">BI-системы</h3>
+              <h4 class="create__item-subtitle">
+                Data Lake, модели данных, репортинг, облачные вычисления
+              </h4>
+            </div>
+            <div class="create__item-right">
+              <a class="btn high w160 thin create__item-btn">Узнать</a>
+            </div>
+          </li>
+          <li class="create__item">
+            <div class="create__item-left">
+              <h3 class="create__item-header">Цифровые двойники</h3>
+              <h4 class="create__item-subtitle">
+                нефтехимических процессов, композитных материалов
+              </h4>
+            </div>
+            <div class="create__item-right">
+              <a class="btn high w160 thin create__item-btn">Узнать</a>
+            </div>
+          </li>
+        </ul>
+        <div class="create__circle"></div>
+
+        <!-- One step section with shadow   -->
+        <div class="create__transition">
+          <div class="create__transition-title">
+            От решения задачи Вас отделяет всего один шаг…
+          </div>
+          <button class="create__transition-button">
+            <span class="create__transition-button-text">Сделать шаг</span>
+          </button>
+        </div>
+
+        <div class="form">
+          <form class="form__body" method="post" action="mail.php">
+
+            <div class="close_btn">
+              <svg class="close-icon" width="30" height="30">
+                <use href="/assets/icons/close_cross.svg#close"></use>
+              </svg>
+              
+            </div>
+          
+            <div class="form__line form__parallel">
+              <label class="form__field">
+                <div class="form__field-label">Обращение</div>
+                <div class="form__field-input-wrapper">
+                  <input
+                    class="form__field-input"
+                    name="name"
+                    required
+                    placeholder="Введите имя"
+                    type="text"
+                  />
+                </div>
+              </label>
+
+              <label class="form__field">
+                <div class="form__field-label">Номер телефона</div>
+                <div class="form__field-input-wrapper mobile">
+                  <input
+                    id="phone-input"
+                    class="form__field-input"
+                    name="phone"
+                    required
+                    placeholder="+7 (XXX) XXX–ХХ–ХХ"
+                    type="text"
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="form__line">
+              <label class="form__field">
+                <div class="form__field-label">Описание</div>
+                <div class="form__field-input-wrapper">
+                  <textarea
+                    class="form__field-input"
+                    name="description"
+                    placeholder="Введите текст, описывающий задачу"
+                  ></textarea>
+                </div>
+              </label>
+            </div>
+            <div class="form__bottom">
+              <input class="btn form__submit" type="submit" value="Отправить" />
+            </div>
+          </form>
+
+          <div class="center">
+            <a class="form__mobile" href="tel:+79272003852">
+              <svg class="form__mobile-icon" width="30" height="30">
+                <use href="/assets/icons/telephone.svg#logo"></use>
+              </svg>
+              <span class="form__mobile-text"
+                >Позвонить +7 (927) 200-38-52</span
+              ></a
+            >
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <button class="scroll">
+      <svg class="scroll__icon">
+        <use href="/assets/icons/sprite.svg#arrow"></use>
+      </svg>
+    </button>
+
+    <script src="dist/bundle.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(90840356, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/90840356" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </body>
 </html>
