@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Regular';
-  src: url('GPN_DIN-Regular.woff') format('woff');
+  src: url('GPN_DIN-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bold';
-  src: url('GPN_DIN-Bold.woff') format('woff');
+  src: url('GPN_DIN-Bold.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
