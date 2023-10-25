@@ -2668,7 +2668,7 @@ var Main = (function (_super) {
             _this.buttons_holder.addChild(_this.btn_arguments).position.set(1265, 33);
             _this.btn_arguments.addListener('select', _this.onSelectPage);
 
-            _this.btn_to_question = new ImageButton('btn_to_question');
+            _this.btn_to_question = new ImageMarginButton('btn_to_question');
             _this.addChild(_this.btn_to_question).position.set(748, 922);
             _this.btn_to_question.addListener('click', () => {
                 _this.btn_question.select();
