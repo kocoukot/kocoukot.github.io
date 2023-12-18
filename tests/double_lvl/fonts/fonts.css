@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Regular';
+  src: url('GPN_DIN-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('GPN_DIN-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Italic';
+  src: url('Rosatom-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Light';
+  src: url('Rosatom-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
