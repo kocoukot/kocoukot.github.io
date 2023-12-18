@@ -2713,6 +2713,7 @@ var Main = (function (_super) {
                     _this.intro_page.show();
                     break;
                 case 'question':
+                    _this.btn_to_question.visible = false
                     _this.question_page.show();
                     // _this.question_tutorial.show();
                     break;
