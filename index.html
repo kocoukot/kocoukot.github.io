@@ -23,29 +23,12 @@
     </style>
 </head>
 <body>
-    <img src="assets/images/waiting.jpeg" alt="Placeholder Image" >
+    <img src="assets/images/waiting.jpeg" alt="Placeholder Image">
     <h1>Дни без вопроса "А что в ответах от бека?"</h1>
-    <div class="counter" id="daysCounter">1</div>
-    <button onclick="resetCounter()">Сбросить</button>
+    <div class="counter" id="daysCounter">...</div>
+    <button id="resetButton">Сбросить</button>
 
-    <script>
-        function getDaysSinceReset() {
-            const resetDate = localStorage.getItem("resetDate");
-            if (!resetDate) {
-                localStorage.setItem("resetDate", new Date().toISOString().split("T")[0]);
-                return 0;
-            }
-            const resetTime = new Date(resetDate).getTime();
-            const todayTime = new Date().getTime();
-            return Math.floor((todayTime - resetTime) / (1000 * 60 * 60 * 24));
-        }
-
-        function resetCounter() {
-            localStorage.setItem("resetDate", new Date().toISOString().split("T")[0]);
-            document.getElementById("daysCounter").textContent = 0;
-        }
-
-        document.getElementById("daysCounter").textContent = getDaysSinceReset();
-    </script>
+    <!-- Подключаем main.js -->
+    <script type="module" src="./main.js"></script>
 </body>
 </html>
