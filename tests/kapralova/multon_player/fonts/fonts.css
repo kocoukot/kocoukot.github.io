@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Regular';
-  src: url('Verdana.woff') format('woff');
+  src: url('Dewi_Expanded_Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Bold';
-  src: url('Inter-Bold.woff') format('woff');
+  src: url('Dewi_Expanded_Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
