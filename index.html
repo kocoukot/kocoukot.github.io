@@ -442,6 +442,50 @@
         font-weight: 700;
       }
 
+      .gallery-art {
+        background: linear-gradient(145deg, #e3f7f3, #bfe0f5 60%, #c9cff5);
+      }
+
+      .gallery-tiles {
+        position: relative;
+        display: grid;
+        width: min(70%, 260px);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        transform: rotate(-3deg);
+        padding: 12px;
+        border-radius: 18px;
+        background: #ffffff;
+        box-shadow: 0 16px 35px rgb(28 75 146 / 18%);
+      }
+
+      .gallery-tiles span {
+        aspect-ratio: 1;
+        border-radius: 8px;
+      }
+
+      .gallery-tiles span:nth-child(1) { background: #5aa9e6; }
+      .gallery-tiles span:nth-child(2) { background: #7fd1ae; }
+      .gallery-tiles span:nth-child(3) { background: #f4b942; }
+      .gallery-tiles span:nth-child(4) { background: #e5646b; }
+      .gallery-tiles span:nth-child(5) { background: #9b7fd1; }
+      .gallery-tiles span:nth-child(6) { background: #3d4a6b; }
+
+      .gallery-tiles .gallery-size {
+        aspect-ratio: auto;
+        position: absolute;
+        right: -14px;
+        bottom: -14px;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: var(--ink);
+        color: var(--teal);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        box-shadow: 0 8px 18px rgb(20 33 59 / 25%);
+      }
+
       .app-content {
         padding: 24px 26px 25px;
       }
@@ -656,10 +700,30 @@
               <p class="eyebrow">Made by Kocoukot</p>
               <h2 id="apps-heading">Find your next favorite</h2>
             </div>
-            <p>Simple mobile experiences for friendly competition, music fans, and everyday discoveries.</p>
+            <p>Simple mobile experiences for friendly competition, music fans, everyday discoveries, and tidy photo libraries.</p>
           </div>
 
           <div class="app-grid">
+            <article class="app-card" aria-labelledby="gallery-title">
+              <div class="card-art gallery-art" aria-hidden="true">
+                <div class="gallery-tiles">
+                  <span></span><span></span><span></span><span></span><span></span><span></span>
+                  <span class="gallery-size">850 GB</span>
+                </div>
+              </div>
+              <div class="app-content">
+                <span class="app-type">Photo storage cleaner</span>
+                <h3 id="gallery-title">Gallery Cleaner</h3>
+                <p>See which photos and videos take the most space, sort by size, find duplicates and clean up. Everything works on your iPhone — nothing is uploaded.</p>
+                <div class="app-actions">
+                  <a class="button" href="/apps/gallery_cleaner/">Privacy policy <span class="button-arrow" aria-hidden="true">→</span></a>
+                  <div class="doc-links" aria-label="Gallery Cleaner information">
+                    <a href="/apps/gallery_cleaner/support.html">Support</a>
+                    <a href="mailto:kocoukot@gmail.com?subject=Gallery%20Cleaner%20support">Email</a>
+                  </div>
+                </div>
+              </div>
+            </article>
             <article class="app-card" aria-labelledby="furudoku-title">
               <div class="card-art furudoku-art">
                 <img src="assets/furudoku-feature-graphic.png" alt="" loading="lazy">
