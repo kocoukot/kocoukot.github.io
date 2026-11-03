@@ -214,6 +214,10 @@
         box-shadow: 0 8px 20px rgb(0 0 0 / 18%);
       }
 
+      .button[hidden] {
+        display: none;
+      }
+
       .button-arrow {
         font-size: 18px;
         line-height: 1;
@@ -732,8 +736,10 @@
                 <h3 id="hold-title">Hold</h3>
                 <p>Practice endurance. Compete with yourself and the whole world.</p>
                 <div class="app-actions">
-                  <a class="button" href="https://play.google.com/store/apps/details?id=com.kocoukot.holdgame" target="_blank" rel="noopener noreferrer">Get it on Google Play <span class="button-arrow" aria-hidden="true">↗</span></a>
+                  <a class="button" data-hold-store="ios" hidden target="_blank" rel="noopener noreferrer">Download on the App Store <span class="button-arrow" aria-hidden="true">↗</span></a>
+                  <a class="button" data-hold-store="android" href="https://play.google.com/store/apps/details?id=com.kocoukot.holdgame" target="_blank" rel="noopener noreferrer">Get it on Google Play <span class="button-arrow" aria-hidden="true">↗</span></a>
                   <div class="doc-links">
+                    <a href="/apps/hold/">About Hold</a>
                     <a href="/apps/hold/privacy.html">Privacy policy</a>
                     <a href="/apps/hold/terms.html">Terms of use</a>
                     <a href="mailto:kocoukot@gmail.com?subject=Hold%20support">Support</a>
@@ -817,5 +823,7 @@
         <p>Questions or feedback? <a href="mailto:kocoukot@gmail.com">Get in touch</a></p>
       </footer>
     </div>
+  <script src="/apps/hold/links.js"></script>
+  <script src="/apps/hold/stores.js"></script>
   </body>
 </html>

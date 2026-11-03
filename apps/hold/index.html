@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#061a3a">
+    <meta name="description" content="Hold — a one-button endurance game. Hold the button as long as you can, beat the daily challenge and climb the world leaderboard.">
+    <meta property="og:title" content="Hold — one-button endurance game">
+    <meta property="og:description" content="How long can you hold? Daily challenge, friends, battle of countries and a world leaderboard.">
+    <meta property="og:image" content="/assets/hold-feature-graphic.png">
+    <title>Hold — one-button endurance game</title>
+    <link rel="icon" href="img/icon.png">
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #eef4ff;
+        --muted: #9db4de;
+        --bg: #061a3a;
+        --card: #0d2a5e;
+        --accent: #2f6bff;
+      }
+      * { box-sizing: border-box; }
+      [hidden] { display: none !important; }
+      body {
+        margin: 0;
+        background: radial-gradient(1200px 500px at 50% -10%, #1858c4, var(--bg) 70%);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+      a { color: inherit; }
+      .page-shell { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
+      header { display: flex; align-items: center; justify-content: space-between; min-height: 72px; font-weight: 700; }
+      header a { text-decoration: none; }
+      .hero {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        gap: 28px;
+        align-items: center;
+        padding: clamp(24px, 5vw, 48px);
+        border-radius: 30px;
+        background: linear-gradient(120deg, #123f94, #0a2a66);
+        box-shadow: 0 24px 60px rgb(0 10 40 / 45%);
+      }
+      .hero img { width: 140px; height: 140px; border-radius: 32px; box-shadow: 0 10px 30px rgb(0 0 30 / 45%); }
+      h1 { margin: 0; font-size: clamp(34px, 6vw, 56px); letter-spacing: -0.03em; line-height: 1.05; }
+      .hero p { margin: 10px 0 20px; font-size: 18px; color: var(--muted); }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+      .button {
+        display: inline-flex; align-items: center; gap: 8px;
+        padding: 13px 20px; border-radius: 999px;
+        background: white; color: #061a3a; font-weight: 700; text-decoration: none;
+      }
+      .note { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+      section { margin: 48px 0; }
+      h2 { font-size: 26px; margin: 0 0 16px; }
+      .shots { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 12px; scroll-snap-type: x mandatory; }
+      .shots img { height: 520px; border-radius: 24px; box-shadow: 0 10px 28px rgb(0 0 20 / 40%); scroll-snap-align: start; }
+      .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+      .feature { background: var(--card); border-radius: 22px; padding: 20px; }
+      .feature b { display: block; font-size: 17px; margin-bottom: 4px; }
+      .feature span { color: var(--muted); }
+      footer { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; padding: 24px 0 48px; color: var(--muted); font-size: 14px; }
+      @media (max-width: 640px) {
+        .hero { grid-template-columns: 1fr; }
+        .hero img { width: 96px; height: 96px; border-radius: 24px; }
+        .shots img { height: 420px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header>
+        <a href="/">← Kocoukot</a>
+        <a href="privacy.html">Privacy policy</a>
+      </header>
+      <main>
+        <div class="hero">
+          <img src="img/icon.png" alt="Hold icon">
+          <div>
+            <h1>Hold</h1>
+            <p>One button. One timer. How long can you hold?</p>
+            <div class="actions">
+              <a class="button" data-hold-store="ios" hidden target="_blank" rel="noopener noreferrer">Download on the App Store ↗</a>
+              <a class="button" data-hold-store="android" href="https://play.google.com/store/apps/details?id=com.kocoukot.holdgame" target="_blank" rel="noopener noreferrer">Get it on Google Play ↗</a>
+            </div>
+            <p class="note">Free to play, no sign-up. Contains ads and optional in-app purchases.</p>
+          </div>
+        </div>
+
+        <section>
+          <h2>Screenshots</h2>
+          <div class="shots">
+            <img src="img/en-01-main.png" alt="Main screen with the daily challenge" loading="lazy">
+            <img src="img/en-02-hold.png" alt="Holding the button" loading="lazy">
+            <img src="img/en-03-challenge.png" alt="Daily challenge" loading="lazy">
+            <img src="img/en-04-world.png" alt="World leaderboard" loading="lazy">
+            <img src="img/en-05-countries.png" alt="Battle of countries" loading="lazy">
+            <img src="img/en-06-ach.png" alt="Achievements" loading="lazy">
+          </div>
+        </section>
+
+        <section>
+          <h2>What’s inside</h2>
+          <div class="features">
+            <div class="feature"><b>🎯 Daily challenge</b><span>One target time a day, the same for every player. Keep your streak alive.</span></div>
+            <div class="feature"><b>🌍 World leaderboard</b><span>All-time and weekly rankings, your place and your “Top N %”.</span></div>
+            <div class="feature"><b>🚩 Battle of countries</b><span>Pick your country and help it climb the table.</span></div>
+            <div class="feature"><b>👥 Friends by code</b><span>Add friends with a short code and get notified when they beat your record.</span></div>
+            <div class="feature"><b>🏅 Achievements</b><span>Rewards for hold time, games played and streaks.</span></div>
+            <div class="feature"><b>🤝 Fair play</b><span>Rare presence checks, report and block players, delete your data in the profile.</span></div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <span>© 2026 Kocoukot</span>
+        <span><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a> · <a href="support.html">Support</a></span>
+      </footer>
+    </div>
+    <script src="/apps/hold/links.js"></script>
+    <script src="/apps/hold/stores.js"></script>
+  </body>
+</html>
